@@ -1,0 +1,11 @@
+check,pearson_r,spearman_rho,n,target,passes,proxy_version
+signals: vol vs early (opened topics),-0.16403051589711798,-0.1573370191482571,162682,> 0,False,vol+early+post (used)
+signals: vol vs post (assessed topics),0.5889971050306679,0.5775287116478683,83240,> 0,True,vol+early+post (used)
+signals: early vs post (assessed topics),-0.1659443359519159,-0.23489480696120382,83240,> 0,False,vol+early+post (used)
+"signals within (module,topic,stage): vol vs early",0.5309585533086776,0.5350045269861132,162682,> 0,True,vol+early+post (used)
+"signals within (module,topic,stage): vol vs post",0.5628865165086028,0.5610827634695197,83240,> 0,True,vol+early+post (used)
+"signals within (module,topic,stage): early vs post",0.20354789454083608,0.1824086698503082,83240,> 0,True,vol+early+post (used)
+"I vs student total clicks (all resources, log1p)",0.030051861210250067,0.03744187487030113,162682,|r| < 0.3,True,vol+early+post (used)
+I vs clicks on the same topic (c_inf),0.2278727286134265,0.19708110250259386,162682,|r| < 0.3,True,vol+early+post (used)
+"split-half: I(odd days) vs I(even days), both halves active",0.494338245992694,0.49218403895700374,138349,> 0,True,vol+early+post (used)
+"split-half reliability, Spearman-Brown corrected",0.66161492863927,,138349,> 0,True,vol+early+post (used)

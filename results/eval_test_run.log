@@ -1,0 +1,23 @@
+2026-11-19 18:03:48,785 05_evaluate INFO 7.1 model metrics on test
+2026-11-19 18:05:01,890 05_evaluate INFO 7.2 ranking metrics on test
+2026-11-19 18:05:02,563 05_evaluate INFO test decision points 12529, students 2996, groups {'A': 11063, 'none': 887, 'B': 579}
+2026-11-19 18:05:10,729 05_evaluate INFO 7.3 simulated gain
+2026-11-19 18:05:11,944 05_evaluate INFO 7.4 exam check
+2026-11-19 18:06:00,050 05_evaluate INFO 7.6 Wilcoxon + Holm
+2026-11-19 18:06:00,095 05_evaluate INFO fairness
+2026-11-19 18:06:01,273 05_evaluate INFO sensitivity variant pass70
+2026-11-19 18:06:04,438 train INFO identification: {'n_pairs': 20017, 'mean': 19.992806114802416, 'sd': 17.908006333797893, 'q': {'0.05': 1.0, '0.25': 2.0, '0.5': 16.0, '0.75': 36.0, '0.95': 49.0}, 'within_topic_sd': 13.681338436471524, 'share_variance_within_topic': 0.58366371326244, 'median_within_topic_iqr': 12.0, 'share_pairs_revised_after_submission': 0.6557925763101364, 'narrow': False}
+2026-11-19 18:07:03,059 03_train INFO knowledge_state rows: 130926; graphs: ('chain', 'data')
+2026-11-19 18:08:39,723 05_evaluate INFO tuned Mastery + prerequisites: thr={'tau_m': 1.0, 'tau_q': 0.4, 'tau_r': 1.0, 'p_star': 0.6} w=[0.7, 0.0, 0.0, 0.3, 0.0] NDCG@5=0.8501 R@5=0.8952 (66 weight vectors)
+2026-11-19 18:11:12,873 05_evaluate INFO tuned + learned forgetting: thr={'tau_m': 1.0, 'tau_q': 0.4, 'tau_r': 1.0, 'p_star': 0.9} w=[0.6, 0.0, 0.0, 0.4, 0.0] NDCG@5=0.8657 R@5=0.9136 (286 weight vectors)
+2026-11-19 18:13:43,186 05_evaluate INFO tuned A3 with data-derived prerequisites: thr={'tau_m': 1.0, 'tau_q': 0.4, 'tau_r': 1.0, 'p_star': 0.6} w=[0.4, 0.4, 0.0, 0.2, 0.0] NDCG@5=0.8430 R@5=0.8865 (66 weight vectors)
+2026-11-19 18:15:09,706 05_evaluate INFO tuned A5 with data-derived prerequisites: thr={'tau_m': 1.0, 'tau_q': 0.4, 'tau_r': 1.0, 'p_star': 0.9} w=[0.7, 0.0, 0.0, 0.3, 0.0] NDCG@5=0.7632 R@5=0.7385 (286 weight vectors)
+2026-11-19 18:15:12,306 05_evaluate INFO sensitivity variant nonsub_fail
+2026-11-19 18:15:14,975 train INFO identification: {'n_pairs': 27066, 'mean': 24.106591295352104, 'sd': 18.38679946015789, 'q': {'0.05': 1.0, '0.25': 3.0, '0.5': 28.0, '0.75': 38.0, '0.95': 51.0}, 'within_topic_sd': 14.605846208651501, 'share_variance_within_topic': 0.6310171577972433, 'median_within_topic_iqr': 9.0, 'share_pairs_revised_after_submission': 0.5377595507278504, 'narrow': False}
+2026-11-19 18:16:03,957 03_train INFO knowledge_state rows: 155160; graphs: ('chain', 'data')
+2026-11-19 18:17:36,036 05_evaluate INFO tuned Mastery + prerequisites: thr={'tau_m': 1.0, 'tau_q': 0.4, 'tau_r': 1.0, 'p_star': 0.6} w=[0.7, 0.0, 0.0, 0.3, 0.0] NDCG@5=0.7579 R@5=0.8015 (66 weight vectors)
+2026-11-19 18:19:13,651 05_evaluate INFO tuned + learned forgetting: thr={'tau_m': 1.0, 'tau_q': 0.4, 'tau_r': 0.9, 'p_star': 0.8} w=[0.4, 0.0, 0.2, 0.4, 0.0] NDCG@5=0.7738 R@5=0.8173 (286 weight vectors)
+2026-11-19 18:20:43,645 05_evaluate INFO tuned A3 with data-derived prerequisites: thr={'tau_m': 1.0, 'tau_q': 0.4, 'tau_r': 1.0, 'p_star': 0.6} w=[0.3, 0.6, 0.0, 0.1, 0.0] NDCG@5=0.7454 R@5=0.7920 (66 weight vectors)
+2026-11-19 18:22:12,373 05_evaluate INFO tuned A5 with data-derived prerequisites: thr={'tau_m': 1.0, 'tau_q': 0.4, 'tau_r': 1.0, 'p_star': 0.7} w=[0.3, 0.4, 0.1, 0.2, 0.0] NDCG@5=0.7042 R@5=0.7026 (286 weight vectors)
+2026-11-19 18:22:16,216 05_evaluate INFO done
+EXIT 0

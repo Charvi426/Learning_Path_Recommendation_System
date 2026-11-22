@@ -1,0 +1,188 @@
+frozen_at: '2026-11-19T17:57:18'
+note: Frozen after validation tuning. Not to be changed after test-split evaluation.
+modules:
+- DDD
+- FFF
+split:
+  train:
+  - 2013B
+  - 2013J
+  val:
+  - 2014B
+  test:
+  - 2014J
+  fallback_val_share: 0.5
+pass_mark: 40
+knowledge_models:
+  fixed_S: 120
+  l2:
+    none: 1e-05
+    fixed: 1e-05
+    learned: 1e-05
+    learnedI: 0.0001
+  das3h_windows: 7_14_30_inf
+  identification_narrow: false
+  main_forgetting_model: learned (A5) / learnedI (A6)
+recommender:
+  K: 5
+  max_revision: 3
+  horizon: 2
+ablations:
+  A0:
+    config:
+      kind: random
+      label: Random
+  A1:
+    config:
+      kind: popularity
+      label: Popularity
+  A2:
+    config:
+      kind: score
+      label: Mastery only
+      model: none
+      active:
+      - G
+      graph: null
+      use_q: false
+    thresholds:
+      tau_m: 1.0
+      tau_q: 0.5
+      tau_r: 1.0
+      p_star: 0.7
+    weights:
+      G: 1.0
+      Q: 0.0
+      F: 0.0
+      D: 0.0
+      I: 0.0
+    val_NDCG@5: 0.6218877899164957
+    val_R@5: 0.8978499782622197
+    n_weight_vectors: 1
+  A3:
+    config:
+      kind: score
+      label: Mastery + prerequisites
+      model: none
+      active:
+      - G
+      - Q
+      - D
+      graph: chain
+    thresholds:
+      tau_m: 1.0
+      tau_q: 0.4
+      tau_r: 1.0
+      p_star: 0.6
+    weights:
+      G: 0.0
+      Q: 1.0
+      F: 0.0
+      D: 0.0
+      I: 0.0
+    val_NDCG@5: 0.8390259928423289
+    val_R@5: 0.8819852804173653
+    n_weight_vectors: 66
+  A4:
+    config:
+      kind: score
+      label: + fixed forgetting
+      model: fixed
+      active:
+      - G
+      - Q
+      - D
+      - F
+      graph: chain
+    thresholds:
+      tau_m: 1.0
+      tau_q: 0.4
+      tau_r: 1.0
+      p_star: 0.9
+    weights:
+      G: 0.3
+      Q: 0.1
+      F: 0.0
+      D: 0.6
+      I: 0.0
+    val_NDCG@5: 0.8533373566745556
+    val_R@5: 0.9198178684553755
+    n_weight_vectors: 286
+  A5:
+    config:
+      kind: score
+      label: + learned forgetting (proposed)
+      model: learned
+      active:
+      - G
+      - Q
+      - D
+      - F
+      graph: chain
+    thresholds:
+      tau_m: 1.0
+      tau_q: 0.4
+      tau_r: 1.0
+      p_star: 0.9
+    weights:
+      G: 0.3
+      Q: 0.1
+      F: 0.0
+      D: 0.6
+      I: 0.0
+    val_NDCG@5: 0.851706978420301
+    val_R@5: 0.9183325569840383
+    n_weight_vectors: 286
+  A6:
+    config:
+      kind: score
+      label: + interest
+      model: learnedI
+      active:
+      - G
+      - Q
+      - F
+      - D
+      - I
+      graph: chain
+    thresholds:
+      tau_m: 1.0
+      tau_q: 0.4
+      tau_r: 1.0
+      p_star: 0.9
+    weights:
+      G: 0.3
+      Q: 0.1
+      F: 0.0
+      D: 0.6
+      I: 0.0
+    val_NDCG@5: 0.8483198910172473
+    val_R@5: 0.9181631575678529
+    n_weight_vectors: 671
+  A7:
+    config:
+      kind: score
+      label: A6 + data-derived prerequisites
+      model: learnedI
+      active:
+      - G
+      - Q
+      - F
+      - D
+      - I
+      graph: data
+    identical_to: A6
+    thresholds:
+      tau_m: 1.0
+      tau_q: 0.4
+      tau_r: 1.0
+      p_star: 0.9
+    weights:
+      G: 0.3
+      Q: 0.1
+      F: 0.0
+      D: 0.6
+      I: 0.0
+    val_NDCG@5: 0.8483198910172473
+    val_R@5: 0.9181631575678529
+    n_weight_vectors: 671

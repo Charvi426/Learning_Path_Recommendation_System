@@ -1,0 +1,91 @@
+[
+  {
+    "module": "AAA",
+    "train_presentations": [
+      "2013J"
+    ],
+    "test_presentation": "2014J",
+    "n_test_students_with_outcomes": 331,
+    "n_test_rows": 1471,
+    "n_decision_points": 1179,
+    "n_topics_max": 5,
+    "groups": {
+      "A": 1090,
+      "none": 46,
+      "B": 43
+    },
+    "test_pass_rate": 0.9660095173351462
+  },
+  {
+    "module": "BBB",
+    "train_presentations": [
+      "2013B",
+      "2013J",
+      "2014B"
+    ],
+    "test_presentation": "2014J",
+    "n_test_students_with_outcomes": 1711,
+    "n_test_rows": 7297,
+    "n_decision_points": 5900,
+    "n_topics_max": 7,
+    "groups": {
+      "A": 5443,
+      "none": 345,
+      "B": 112
+    },
+    "test_pass_rate": 0.8891325202137865
+  },
+  {
+    "module": "CCC",
+    "train_presentations": [
+      "2014B"
+    ],
+    "test_presentation": "2014J",
+    "n_test_students_with_outcomes": 1916,
+    "n_test_rows": 10048,
+    "n_decision_points": 8658,
+    "n_topics_max": 8,
+    "groups": {
+      "A": 6657,
+      "none": 1519,
+      "B": 482
+    },
+    "test_pass_rate": 0.9233678343949044
+  },
+  {
+    "module": "EEE",
+    "train_presentations": [
+      "2013J",
+      "2014B"
+    ],
+    "test_presentation": "2014J",
+    "n_test_students_with_outcomes": 908,
+    "n_test_rows": 3176,
+    "n_decision_points": 2440,
+    "n_topics_max": 4,
+    "groups": {
+      "A": 2207,
+      "none": 200,
+      "B": 33
+    },
+    "test_pass_rate": 0.9861460957178841
+  },
+  {
+    "module": "GGG",
+    "train_presentations": [
+      "2013J",
+      "2014B"
+    ],
+    "test_presentation": "2014J",
+    "n_test_students_with_outcomes": 599,
+    "n_test_rows": 2130,
+    "n_decision_points": 1587,
+    "n_topics_max": 4,
+    "groups": {
+      "A": 1467,
+      "none": 82,
+      "B": 38
+    },
+    "test_pass_rate": 0.9769953051643192
+  }
+]

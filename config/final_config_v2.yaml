@@ -1,0 +1,296 @@
+frozen_at: '2026-11-20T18:14:32'
+note: v2 (POST-HOC). All choices tuned on validation (DDD/FFF 2014B) only. Frozen
+  before any holdout or 2014J v2 scoring.
+knowledge_models: unchanged from v1 (config/final_config.yaml); Fix 1 found no bug
+v2_filters:
+  modes:
+  - within
+  - cohort
+  q_grid:
+  - 10
+  - 20
+  - 30
+  - 40
+  - 50
+  max_upcoming_removed: 0.1
+  min_active_share: 0.01
+pop_definition: train_window
+recommender:
+  K: 5
+  max_revision: 3
+  horizon: 2
+ablations:
+  A0:
+    config:
+      kind: random
+      label: Random
+  A1:
+    config:
+      kind: popularity
+      label: Popularity
+    note: 'v1 A1, audited: no leakage'
+  A2:
+    filters:
+      mode: within
+      q_rev: 50
+      q_new: 30
+      tau_q: 0.5
+      p_star: 0.7
+    weights:
+      G: 1.0
+      Q: 0.0
+      F: 0.0
+      D: 0.0
+      I: 0.0
+      Pop: 0.0
+    val_NDCG@5: 0.585421436025479
+    val_R@5: 0.8234643810943421
+    n_weight_vectors: 1
+    val_filter_diagnostics:
+      mean_candidates: 4.193527756459453
+      mean_new_candidates: 2.5294192888206704
+      mean_revision_candidates: 1.6641084676387823
+      share_upcoming_removed_by_mastery_filter: 0.00012871669455528383
+      share_dp_with_revision_flag: 1.0
+      share_dp_mastery_filter_active: 0.014070094653364031
+      share_paths_with_revise: 1.0
+      share_paths_with_upcoming: 0.995906881555385
+      mean_path_length: 4.193527756459453
+    config:
+      kind: score
+      label: Mastery only
+      model: none
+      active:
+      - G
+      graph: null
+      use_q: false
+  A3:
+    filters:
+      mode: within
+      q_rev: 50
+      q_new: 30
+      tau_q: 0.4
+      p_star: 0.6
+    weights:
+      G: 0.7
+      Q: 0.0
+      F: 0.0
+      D: 0.3
+      I: 0.0
+      Pop: 0.0
+    val_NDCG@5: 0.7726429871260285
+    val_R@5: 0.802852462579964
+    n_weight_vectors: 66
+    val_filter_diagnostics:
+      mean_candidates: 3.8124840112560756
+      mean_new_candidates: 2.1483755436172935
+      mean_revision_candidates: 1.6641084676387823
+      share_upcoming_removed_by_mastery_filter: 0.00012871669455528383
+      share_dp_with_revision_flag: 1.0
+      share_dp_mastery_filter_active: 0.014070094653364031
+      share_paths_with_revise: 1.0
+      share_paths_with_upcoming: 0.9374520337682272
+      mean_path_length: 3.8124840112560756
+    config:
+      kind: score
+      label: Mastery + prerequisites
+      model: none
+      active:
+      - G
+      - Q
+      - D
+      graph: chain
+  A4:
+    filters:
+      mode: within
+      q_rev: 50
+      q_new: 30
+      tau_q: 0.4
+      p_star: 0.9
+    weights:
+      G: 0.3
+      Q: 0.0
+      F: 0.0
+      D: 0.7
+      I: 0.0
+      Pop: 0.0
+    val_NDCG@5: 0.779975434889797
+    val_R@5: 0.7628043289236693
+    n_weight_vectors: 286
+    val_filter_diagnostics:
+      mean_candidates: 3.8100537221795854
+      mean_new_candidates: 2.1459452545408033
+      mean_revision_candidates: 1.6641084676387823
+      share_upcoming_removed_by_mastery_filter: 0.00012871669455528383
+      share_dp_with_revision_flag: 1.0
+      share_dp_mastery_filter_active: 0.014070094653364031
+      share_paths_with_revise: 1.0
+      share_paths_with_upcoming: 0.9284983371706319
+      mean_path_length: 3.8100537221795854
+    config:
+      kind: score
+      label: + fixed forgetting
+      model: fixed
+      active:
+      - G
+      - Q
+      - D
+      - F
+      graph: chain
+  A5:
+    filters:
+      mode: within
+      q_rev: 50
+      q_new: 30
+      tau_q: 0.4
+      p_star: 0.9
+    weights:
+      G: 0.4
+      Q: 0.0
+      F: 0.0
+      D: 0.6
+      I: 0.0
+      Pop: 0.0
+    val_NDCG@5: 0.7779596320918427
+    val_R@5: 0.7644967703869325
+    n_weight_vectors: 286
+    val_filter_diagnostics:
+      mean_candidates: 3.805576873880788
+      mean_new_candidates: 2.1414684062420055
+      mean_revision_candidates: 1.6641084676387823
+      share_upcoming_removed_by_mastery_filter: 0.00012871669455528383
+      share_dp_with_revision_flag: 1.0
+      share_dp_mastery_filter_active: 0.014070094653364031
+      share_paths_with_revise: 1.0
+      share_paths_with_upcoming: 0.9296495267331798
+      mean_path_length: 3.805576873880788
+    config:
+      kind: score
+      label: + learned forgetting
+      model: learned
+      active:
+      - G
+      - Q
+      - D
+      - F
+      graph: chain
+  A6:
+    filters:
+      mode: within
+      q_rev: 50
+      q_new: 30
+      tau_q: 0.4
+      p_star: 0.9
+    weights:
+      G: 0.4
+      Q: 0.0
+      F: 0.0
+      D: 0.6
+      I: 0.0
+      Pop: 0.0
+    val_NDCG@5: 0.7807291577583358
+    val_R@5: 0.7693900999937892
+    n_weight_vectors: 671
+    val_filter_diagnostics:
+      mean_candidates: 3.818495778971604
+      mean_new_candidates: 2.1543873113328216
+      mean_revision_candidates: 1.6641084676387823
+      share_upcoming_removed_by_mastery_filter: 0.00038615008366585146
+      share_dp_with_revision_flag: 1.0
+      share_dp_mastery_filter_active: 0.014070094653364031
+      share_paths_with_revise: 1.0
+      share_paths_with_upcoming: 0.9286262471220261
+      mean_path_length: 3.818495778971604
+    config:
+      kind: score
+      label: + interest
+      model: learnedI
+      active:
+      - G
+      - Q
+      - F
+      - D
+      - I
+      graph: chain
+  A8:
+    filters:
+      mode: within
+      q_rev: 50
+      q_new: 30
+      tau_q: 0.4
+      p_star: 0.9
+    weights:
+      G: 0.3
+      Q: 0.0
+      F: 0.2
+      D: 0.3
+      I: 0.0
+      Pop: 0.2
+    val_NDCG@5: 0.7863022411470659
+    val_R@5: 0.7644967703869325
+    n_weight_vectors: 1001
+    val_filter_diagnostics:
+      mean_candidates: 3.805576873880788
+      mean_new_candidates: 2.1414684062420055
+      mean_revision_candidates: 1.6641084676387823
+      share_upcoming_removed_by_mastery_filter: 0.00012871669455528383
+      share_dp_with_revision_flag: 1.0
+      share_dp_mastery_filter_active: 0.014070094653364031
+      share_paths_with_revise: 1.0
+      share_paths_with_upcoming: 0.9296495267331798
+      mean_path_length: 3.805576873880788
+    config:
+      kind: score
+      label: A5 + popularity
+      model: learned
+      active:
+      - G
+      - Q
+      - D
+      - F
+      - Pop
+      graph: chain
+      pop: train_window
+  A9:
+    filters:
+      mode: within
+      q_rev: 50
+      q_new: 30
+      tau_q: 0.4
+      p_star: 0.9
+    weights:
+      G: 0.3
+      Q: 0.0
+      F: 0.2
+      D: 0.3
+      I: 0.0
+      Pop: 0.2
+    val_NDCG@5: 0.7896396942921899
+    val_R@5: 0.7693900999937892
+    n_weight_vectors: 2211
+    val_filter_diagnostics:
+      mean_candidates: 3.818495778971604
+      mean_new_candidates: 2.1543873113328216
+      mean_revision_candidates: 1.6641084676387823
+      share_upcoming_removed_by_mastery_filter: 0.00038615008366585146
+      share_dp_with_revision_flag: 1.0
+      share_dp_mastery_filter_active: 0.014070094653364031
+      share_paths_with_revise: 1.0
+      share_paths_with_upcoming: 0.9286262471220261
+      mean_path_length: 3.818495778971604
+    config:
+      kind: score
+      label: A6 + popularity
+      model: learnedI
+      active:
+      - G
+      - Q
+      - F
+      - D
+      - I
+      - Pop
+      graph: chain
+      pop: train_window
+  A7:
+    identical_to: A6
+    note: 'no data-derived edge qualifies at pass mark 40 (v1 #23)'

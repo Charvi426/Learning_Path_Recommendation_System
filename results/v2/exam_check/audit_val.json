@@ -1,0 +1,16 @@
+{
+  "audit": {
+    "n_assessed_pairs_pipeline": 2930,
+    "n_assessed_pairs_independent": 2930,
+    "pairs_only_in_one": 0,
+    "max_abs_delta_difference": 0.0,
+    "clicks_on_or_after_exam_date_rows": 38,
+    "verdict": "pipeline \u0394 equals the independent re-implementation for every pair"
+  },
+  "overall_learned": {
+    "rho_meanM": 0.6393660041756362,
+    "rho_meanK": 0.5424886424974954,
+    "drho": -0.09687736167814076,
+    "rho_meanR_assessed_vs_exam": 0.28154357338993147
+  }
+}

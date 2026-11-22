@@ -1,0 +1,115 @@
+{
+  "courses": {
+    "rows": 22,
+    "columns": {
+      "code_module": "object",
+      "code_presentation": "object",
+      "module_presentation_length": "int32"
+    },
+    "missing": {}
+  },
+  "assessments": {
+    "rows": 206,
+    "columns": {
+      "code_module": "object",
+      "code_presentation": "object",
+      "id_assessment": "int64",
+      "assessment_type": "object",
+      "date": "float64",
+      "weight": "float64"
+    },
+    "missing": {
+      "date": 11
+    }
+  },
+  "studentAssessment": {
+    "rows": 173912,
+    "columns": {
+      "id_assessment": "int64",
+      "id_student": "int64",
+      "date_submitted": "int32",
+      "is_banked": "int8",
+      "score": "float64"
+    },
+    "missing": {
+      "score": 173
+    }
+  },
+  "vle": {
+    "rows": 6364,
+    "columns": {
+      "id_site": "int64",
+      "code_module": "object",
+      "code_presentation": "object",
+      "activity_type": "object",
+      "week_from": "float64",
+      "week_to": "float64"
+    },
+    "missing": {
+      "week_from": 5243,
+      "week_to": 5243
+    }
+  },
+  "studentRegistration": {
+    "rows": 32593,
+    "columns": {
+      "code_module": "object",
+      "code_presentation": "object",
+      "id_student": "int64",
+      "date_registration": "float64",
+      "date_unregistration": "float64"
+    },
+    "missing": {
+      "date_registration": 45,
+      "date_unregistration": 22521
+    }
+  },
+  "studentInfo": {
+    "rows": 32593,
+    "columns": {
+      "code_module": "object",
+      "code_presentation": "object",
+      "id_student": "int64",
+      "gender": "object",
+      "region": "object",
+      "highest_education": "object",
+      "imd_band": "object",
+      "age_band": "object",
+      "num_of_prev_attempts": "int16",
+      "studied_credits": "int32",
+      "disability": "object",
+      "final_result": "object"
+    },
+    "missing": {
+      "imd_band": 1111
+    }
+  },
+  "presentations": [
+    "2013B",
+    "2013J",
+    "2014B",
+    "2014J"
+  ],
+  "activity_types": {
+    "resource": 2660,
+    "subpage": 1055,
+    "oucontent": 996,
+    "url": 886,
+    "forumng": 194,
+    "quiz": 127,
+    "page": 102,
+    "oucollaborate": 82,
+    "questionnaire": 61,
+    "ouwiki": 49,
+    "dataplus": 28,
+    "externalquiz": 26,
+    "homepage": 22,
+    "glossary": 21,
+    "ouelluminate": 21,
+    "dualpane": 20,
+    "repeatactivity": 5,
+    "htmlactivity": 4,
+    "sharedsubpage": 3,
+    "folder": 2
+  }
+}

@@ -1,0 +1,5 @@
+module,term,coef,ci_lo,ci_hi,n_students,n_excluded_no_revision_practice,label
+CCC,intercept,-19.303405663959282,-26.551148154965,-12.990377523787025,823,342,"observational, not causal"
+CCC,mean_M,123.57149101592039,116.46520412197403,131.31559040205283,823,342,"observational, not causal"
+CCC,log1p_revision_clicks,-0.41446660352065123,-1.2009867248713608,0.39991885263353105,823,342,"observational, not causal"
+CCC,share_revision_on_flagged,-22.458435306190328,-28.442600510360876,-16.632397327835807,823,342,"observational, not causal"

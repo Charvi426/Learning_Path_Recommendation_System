@@ -1,0 +1,1014 @@
+[
+  {
+    "student_group": "strong",
+    "student_sid": 11255,
+    "module": "FFF",
+    "presentation": "2014B",
+    "decision_day": 166.0,
+    "next_assessment_topic": 6,
+    "ability": 0.9895706686930091,
+    "config": "A5",
+    "path": [
+      {
+        "position": 1,
+        "topic": "FFF topic 5",
+        "action": "Revise",
+        "score": 0.7231152487464515,
+        "terms": {
+          "G": 0.09,
+          "Q": 1.0,
+          "F": 0.004,
+          "D": 0.994,
+          "I": 0.616
+        },
+        "weighted": {
+          "G": 0.027,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.596,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 5 is at the right level for you now (predicted success 91%)."
+      },
+      {
+        "position": 2,
+        "topic": "FFF topic 1",
+        "action": "Revise",
+        "score": 0.7118303018936887,
+        "terms": {
+          "G": 0.08,
+          "Q": 1.0,
+          "F": 0.002,
+          "D": 0.98,
+          "I": 0.286
+        },
+        "weighted": {
+          "G": 0.024,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.588,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 1 is at the right level for you now (predicted success 92%)."
+      },
+      {
+        "position": 3,
+        "topic": "FFF topic 3",
+        "action": "Revise",
+        "score": 0.6944463717740555,
+        "terms": {
+          "G": 0.09,
+          "Q": 1.0,
+          "F": 0.059,
+          "D": 0.946,
+          "I": 0.59
+        },
+        "weighted": {
+          "G": 0.027,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.567,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 3 is at the right level for you now (predicted success 85%)."
+      },
+      {
+        "position": 4,
+        "topic": "FFF topic 6",
+        "action": "Practice",
+        "score": 0.6239618063734436,
+        "terms": {
+          "G": 0.0,
+          "Q": 0.906,
+          "F": 0.0,
+          "D": 0.889,
+          "I": 0.381
+        },
+        "weighted": {
+          "G": 0.0,
+          "Q": 0.091,
+          "F": 0.0,
+          "D": 0.533,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 6 is at the right level for you now (predicted success 100%)."
+      }
+    ],
+    "observed_outcome_group": "passed next assessment"
+  },
+  {
+    "student_group": "strong",
+    "student_sid": 11148,
+    "module": "FFF",
+    "presentation": "2014B",
+    "decision_day": 172.0,
+    "next_assessment_topic": 6,
+    "ability": 0.9895706686930091,
+    "config": "A5",
+    "path": [
+      {
+        "position": 1,
+        "topic": "FFF topic 1",
+        "action": "Revise",
+        "score": 0.6987974977210825,
+        "terms": {
+          "G": 0.18,
+          "Q": 1.0,
+          "F": 0.003,
+          "D": 0.908,
+          "I": 0.534
+        },
+        "weighted": {
+          "G": 0.054,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.545,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 1 is at the right level for you now (predicted success 82%)."
+      },
+      {
+        "position": 2,
+        "topic": "FFF topic 5",
+        "action": "Revise",
+        "score": 0.6497385867630585,
+        "terms": {
+          "G": 0.31,
+          "Q": 1.0,
+          "F": 0.005,
+          "D": 0.761,
+          "I": 0.263
+        },
+        "weighted": {
+          "G": 0.093,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.457,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 5 is at the right level for you now (predicted success 69%)."
+      },
+      {
+        "position": 3,
+        "topic": "FFF topic 4",
+        "action": "Revise",
+        "score": 0.6277189543062066,
+        "terms": {
+          "G": 0.28,
+          "Q": 1.0,
+          "F": 0.054,
+          "D": 0.74,
+          "I": 0.966
+        },
+        "weighted": {
+          "G": 0.084,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.444,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 4 is at the right level for you now (predicted success 67%)."
+      },
+      {
+        "position": 4,
+        "topic": "FFF topic 6",
+        "action": "Practice",
+        "score": 0.6025528950326718,
+        "terms": {
+          "G": 0.001,
+          "Q": 0.685,
+          "F": 0.0,
+          "D": 0.89,
+          "I": 0.201
+        },
+        "weighted": {
+          "G": 0.0,
+          "Q": 0.069,
+          "F": 0.0,
+          "D": 0.534,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 6 is at the right level for you now (predicted success 100%)."
+      }
+    ],
+    "observed_outcome_group": "passed next assessment"
+  },
+  {
+    "student_group": "strong",
+    "student_sid": 10364,
+    "module": "FFF",
+    "presentation": "2014B",
+    "decision_day": 130.0,
+    "next_assessment_topic": 5,
+    "ability": 0.9895706686930091,
+    "config": "A5",
+    "path": [
+      {
+        "position": 1,
+        "topic": "FFF topic 4",
+        "action": "Revise",
+        "score": 0.708384363905535,
+        "terms": {
+          "G": 0.15,
+          "Q": 1.0,
+          "F": 0.005,
+          "D": 0.939,
+          "I": 0.484
+        },
+        "weighted": {
+          "G": 0.045,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.563,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 4 is at the right level for you now (predicted success 85%)."
+      },
+      {
+        "position": 2,
+        "topic": "FFF topic 6",
+        "action": "Revise",
+        "score": 0.6856244768327763,
+        "terms": {
+          "G": 0.063,
+          "Q": 1.0,
+          "F": 0.087,
+          "D": 0.944,
+          "I": 0.914
+        },
+        "weighted": {
+          "G": 0.019,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.567,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 6 is at the right level for you now (predicted success 85%)."
+      },
+      {
+        "position": 3,
+        "topic": "FFF topic 1",
+        "action": "Revise",
+        "score": 0.6669067191702842,
+        "terms": {
+          "G": 0.02,
+          "Q": 1.0,
+          "F": 0.021,
+          "D": 0.935,
+          "I": 0.4
+        },
+        "weighted": {
+          "G": 0.006,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.561,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 1 is at the right level for you now (predicted success 96%)."
+      },
+      {
+        "position": 4,
+        "topic": "FFF topic 5",
+        "action": "Practice",
+        "score": 0.6537968983673581,
+        "terms": {
+          "G": 0.037,
+          "Q": 0.845,
+          "F": 0.0,
+          "D": 0.93,
+          "I": 0.62
+        },
+        "weighted": {
+          "G": 0.011,
+          "Q": 0.085,
+          "F": 0.0,
+          "D": 0.558,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 5 is at the right level for you now (predicted success 96%)."
+      }
+    ],
+    "observed_outcome_group": "did not submit / no outcome"
+  },
+  {
+    "student_group": "average",
+    "student_sid": 4245,
+    "module": "DDD",
+    "presentation": "2014B",
+    "decision_day": 116.0,
+    "next_assessment_topic": 5,
+    "ability": 0.9671907849930413,
+    "config": "A5",
+    "path": [
+      {
+        "position": 1,
+        "topic": "DDD topic 4",
+        "action": "Revise",
+        "score": 0.7271026396172056,
+        "terms": {
+          "G": 0.1,
+          "Q": 1.0,
+          "F": 0.004,
+          "D": 0.995,
+          "I": 0.363
+        },
+        "weighted": {
+          "G": 0.03,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.597,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 4 is at the right level for you now (predicted success 90%)."
+      },
+      {
+        "position": 2,
+        "topic": "DDD topic 1",
+        "action": "Revise",
+        "score": 0.6512353805126115,
+        "terms": {
+          "G": 0.2,
+          "Q": 1.0,
+          "F": 0.063,
+          "D": 0.819,
+          "I": 0.504
+        },
+        "weighted": {
+          "G": 0.06,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.491,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 1 is at the right level for you now (predicted success 74%)."
+      },
+      {
+        "position": 3,
+        "topic": "DDD topic 5",
+        "action": "Learn",
+        "score": 0.6460659116869647,
+        "terms": {
+          "G": 0.3,
+          "Q": 0.896,
+          "F": 0.0,
+          "D": 0.777,
+          "I": 0.5
+        },
+        "weighted": {
+          "G": 0.09,
+          "Q": 0.09,
+          "F": 0.0,
+          "D": 0.466,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 5 is at the right level for you now (predicted success 70%)."
+      },
+      {
+        "position": 4,
+        "topic": "DDD topic 3",
+        "action": "Revise",
+        "score": 0.5595010380541334,
+        "terms": {
+          "G": 0.21,
+          "Q": 1.0,
+          "F": 0.195,
+          "D": 0.661,
+          "I": 0.428
+        },
+        "weighted": {
+          "G": 0.063,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.397,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 3 is at the right level for you now (predicted success 59%)."
+      },
+      {
+        "position": 5,
+        "topic": "DDD topic 6",
+        "action": "Learn",
+        "score": 0.4526417066606408,
+        "terms": {
+          "G": 0.774,
+          "Q": 0.7,
+          "F": 0.0,
+          "D": 0.251,
+          "I": 0.5
+        },
+        "weighted": {
+          "G": 0.232,
+          "Q": 0.07,
+          "F": 0.0,
+          "D": 0.15,
+          "I": 0.0
+        },
+        "explanation": "Learn DDD topic 6: your predicted mastery is still low (23%). DDD topic 6 is at the right level for you now (predicted success 23%)."
+      }
+    ],
+    "observed_outcome_group": "passed next assessment"
+  },
+  {
+    "student_group": "average",
+    "student_sid": 10656,
+    "module": "FFF",
+    "presentation": "2014B",
+    "decision_day": 46.0,
+    "next_assessment_topic": 3,
+    "ability": 0.981748670212766,
+    "config": "A5",
+    "path": [
+      {
+        "position": 1,
+        "topic": "FFF topic 2",
+        "action": "Revise",
+        "score": 0.6960646632808072,
+        "terms": {
+          "G": 0.18,
+          "Q": 1.0,
+          "F": 0.007,
+          "D": 0.903,
+          "I": 0.526
+        },
+        "weighted": {
+          "G": 0.054,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.542,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 2 is at the right level for you now (predicted success 81%)."
+      },
+      {
+        "position": 2,
+        "topic": "FFF topic 1",
+        "action": "Revise",
+        "score": 0.6954332686035493,
+        "terms": {
+          "G": 0.18,
+          "Q": 1.0,
+          "F": 0.008,
+          "D": 0.902,
+          "I": 0.533
+        },
+        "weighted": {
+          "G": 0.054,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.541,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 1 is at the right level for you now (predicted success 81%)."
+      },
+      {
+        "position": 3,
+        "topic": "FFF topic 3",
+        "action": "Practice",
+        "score": 0.6905413313600447,
+        "terms": {
+          "G": 0.079,
+          "Q": 0.813,
+          "F": 0.0,
+          "D": 0.976,
+          "I": 0.587
+        },
+        "weighted": {
+          "G": 0.024,
+          "Q": 0.081,
+          "F": 0.0,
+          "D": 0.586,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 3 is at the right level for you now (predicted success 92%)."
+      },
+      {
+        "position": 4,
+        "topic": "FFF topic 4",
+        "action": "Practice",
+        "score": 0.6266246389199897,
+        "terms": {
+          "G": 0.361,
+          "Q": 0.921,
+          "F": 0.0,
+          "D": 0.711,
+          "I": 0.28
+        },
+        "weighted": {
+          "G": 0.108,
+          "Q": 0.092,
+          "F": 0.0,
+          "D": 0.426,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 4 is at the right level for you now (predicted success 64%)."
+      },
+      {
+        "position": 5,
+        "topic": "FFF topic 5",
+        "action": "Learn",
+        "score": 0.5175153460588189,
+        "terms": {
+          "G": 0.581,
+          "Q": 0.639,
+          "F": 0.0,
+          "D": 0.465,
+          "I": 0.5
+        },
+        "weighted": {
+          "G": 0.174,
+          "Q": 0.064,
+          "F": 0.0,
+          "D": 0.279,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 5 is at the right level for you now (predicted success 42%). Learn FFF topic 5: your predicted mastery is still low (42%)."
+      }
+    ],
+    "observed_outcome_group": "passed next assessment"
+  },
+  {
+    "student_group": "average",
+    "student_sid": 11537,
+    "module": "FFF",
+    "presentation": "2014B",
+    "decision_day": 21.0,
+    "next_assessment_topic": 2,
+    "ability": 0.9756648936170214,
+    "config": "A5",
+    "path": [
+      {
+        "position": 1,
+        "topic": "FFF topic 1",
+        "action": "Revise",
+        "score": 0.7008044904191629,
+        "terms": {
+          "G": 0.06,
+          "Q": 1.0,
+          "F": 0.014,
+          "D": 0.971,
+          "I": 0.512
+        },
+        "weighted": {
+          "G": 0.018,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.583,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 1 is at the right level for you now (predicted success 93%)."
+      },
+      {
+        "position": 2,
+        "topic": "FFF topic 2",
+        "action": "Practice",
+        "score": 0.7216409571722568,
+        "terms": {
+          "G": 0.103,
+          "Q": 0.926,
+          "F": 0.0,
+          "D": 0.997,
+          "I": 0.152
+        },
+        "weighted": {
+          "G": 0.031,
+          "Q": 0.093,
+          "F": 0.0,
+          "D": 0.598,
+          "I": 0.0
+        },
+        "explanation": "FFF topic 2 is at the right level for you now (predicted success 90%)."
+      },
+      {
+        "position": 3,
+        "topic": "FFF topic 3",
+        "action": "Learn",
+        "score": 0.5020353623154445,
+        "terms": {
+          "G": 0.694,
+          "Q": 0.897,
+          "F": 0.0,
+          "D": 0.34,
+          "I": 0.5
+        },
+        "weighted": {
+          "G": 0.208,
+          "Q": 0.09,
+          "F": 0.0,
+          "D": 0.204,
+          "I": 0.0
+        },
+        "explanation": "Learn FFF topic 3: your predicted mastery is still low (31%). FFF topic 3 is at the right level for you now (predicted success 31%)."
+      }
+    ],
+    "observed_outcome_group": "passed next assessment"
+  },
+  {
+    "student_group": "average",
+    "student_sid": 3362,
+    "module": "DDD",
+    "presentation": "2014B",
+    "decision_day": 117.0,
+    "next_assessment_topic": 5,
+    "ability": 0.9671907849930413,
+    "config": "A5",
+    "path": [
+      {
+        "position": 1,
+        "topic": "DDD topic 1",
+        "action": "Revise",
+        "score": 0.6548975971686567,
+        "terms": {
+          "G": 0.3,
+          "Q": 1.0,
+          "F": 0.003,
+          "D": 0.775,
+          "I": 0.445
+        },
+        "weighted": {
+          "G": 0.09,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.465,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 1 is at the right level for you now (predicted success 70%)."
+      },
+      {
+        "position": 2,
+        "topic": "DDD topic 4",
+        "action": "Revise",
+        "score": 0.5993407546966912,
+        "terms": {
+          "G": 0.45,
+          "Q": 1.0,
+          "F": 0.003,
+          "D": 0.607,
+          "I": 0.513
+        },
+        "weighted": {
+          "G": 0.135,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.364,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 4 is at the right level for you now (predicted success 55%)."
+      },
+      {
+        "position": 3,
+        "topic": "DDD topic 5",
+        "action": "Practice",
+        "score": 0.6342120965816718,
+        "terms": {
+          "G": 0.238,
+          "Q": 0.547,
+          "F": 0.0,
+          "D": 0.847,
+          "I": 0.315
+        },
+        "weighted": {
+          "G": 0.071,
+          "Q": 0.055,
+          "F": 0.0,
+          "D": 0.508,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 5 is at the right level for you now (predicted success 76%)."
+      },
+      {
+        "position": 4,
+        "topic": "DDD topic 6",
+        "action": "Practice",
+        "score": 0.5966303554661483,
+        "terms": {
+          "G": 0.399,
+          "Q": 0.762,
+          "F": 0.0,
+          "D": 0.668,
+          "I": 0.584
+        },
+        "weighted": {
+          "G": 0.12,
+          "Q": 0.076,
+          "F": 0.0,
+          "D": 0.401,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 6 is at the right level for you now (predicted success 60%)."
+      },
+      {
+        "position": 5,
+        "topic": "DDD topic 3",
+        "action": "Revise",
+        "score": 0.5274818236220107,
+        "terms": {
+          "G": 0.28,
+          "Q": 1.0,
+          "F": 0.205,
+          "D": 0.572,
+          "I": 0.64
+        },
+        "weighted": {
+          "G": 0.084,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.343,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 3 is at the right level for you now (predicted success 52%)."
+      }
+    ],
+    "observed_outcome_group": "did not submit / no outcome"
+  },
+  {
+    "student_group": "struggling",
+    "student_sid": 3783,
+    "module": "DDD",
+    "presentation": "2014B",
+    "decision_day": 24.0,
+    "next_assessment_topic": 2,
+    "ability": 0.9343815699860828,
+    "config": "A5",
+    "path": [
+      {
+        "position": 1,
+        "topic": "DDD topic 1",
+        "action": "Revise",
+        "score": 0.715133491537535,
+        "terms": {
+          "G": 0.08,
+          "Q": 1.0,
+          "F": 0.007,
+          "D": 0.985,
+          "I": 0.632
+        },
+        "weighted": {
+          "G": 0.024,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.591,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 1 is at the right level for you now (predicted success 91%)."
+      },
+      {
+        "position": 2,
+        "topic": "DDD topic 2",
+        "action": "Practice",
+        "score": 0.6618751550198527,
+        "terms": {
+          "G": 0.038,
+          "Q": 0.913,
+          "F": 0.0,
+          "D": 0.932,
+          "I": 0.558
+        },
+        "weighted": {
+          "G": 0.012,
+          "Q": 0.091,
+          "F": 0.0,
+          "D": 0.559,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 2 is at the right level for you now (predicted success 96%)."
+      },
+      {
+        "position": 3,
+        "topic": "DDD topic 3",
+        "action": "Learn",
+        "score": 0.6050419618612479,
+        "terms": {
+          "G": 0.43,
+          "Q": 0.962,
+          "F": 0.0,
+          "D": 0.633,
+          "I": 0.5
+        },
+        "weighted": {
+          "G": 0.129,
+          "Q": 0.096,
+          "F": 0.0,
+          "D": 0.38,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 3 is at the right level for you now (predicted success 57%)."
+      },
+      {
+        "position": 4,
+        "topic": "DDD topic 4",
+        "action": "Practice",
+        "score": 0.4535535986343958,
+        "terms": {
+          "G": 0.737,
+          "Q": 0.57,
+          "F": 0.0,
+          "D": 0.293,
+          "I": 0.315
+        },
+        "weighted": {
+          "G": 0.221,
+          "Q": 0.057,
+          "F": 0.0,
+          "D": 0.176,
+          "I": 0.0
+        },
+        "explanation": "Learn DDD topic 4: your predicted mastery is still low (26%). DDD topic 4 is at the right level for you now (predicted success 26%)."
+      }
+    ],
+    "observed_outcome_group": "passed next assessment"
+  },
+  {
+    "student_group": "struggling",
+    "student_sid": 4285,
+    "module": "DDD",
+    "presentation": "2014B",
+    "decision_day": 66.0,
+    "next_assessment_topic": 3,
+    "ability": 0.9507861774895621,
+    "config": "A5",
+    "path": [
+      {
+        "position": 1,
+        "topic": "DDD topic 2",
+        "action": "Revise",
+        "score": 0.6149122096197788,
+        "terms": {
+          "G": 0.41,
+          "Q": 1.0,
+          "F": 0.002,
+          "D": 0.653,
+          "I": 0.232
+        },
+        "weighted": {
+          "G": 0.123,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.392,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 2 is at the right level for you now (predicted success 59%)."
+      },
+      {
+        "position": 2,
+        "topic": "DDD topic 3",
+        "action": "Practice",
+        "score": 0.6503083946616631,
+        "terms": {
+          "G": 0.06,
+          "Q": 0.588,
+          "F": 0.0,
+          "D": 0.956,
+          "I": 0.164
+        },
+        "weighted": {
+          "G": 0.018,
+          "Q": 0.059,
+          "F": 0.0,
+          "D": 0.573,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 3 is at the right level for you now (predicted success 94%)."
+      },
+      {
+        "position": 3,
+        "topic": "DDD topic 1",
+        "action": "Revise",
+        "score": 0.6115156292854727,
+        "terms": {
+          "G": 0.4,
+          "Q": 1.0,
+          "F": 0.013,
+          "D": 0.653,
+          "I": 0.692
+        },
+        "weighted": {
+          "G": 0.12,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.392,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 1 is at the right level for you now (predicted success 59%)."
+      },
+      {
+        "position": 4,
+        "topic": "DDD topic 4",
+        "action": "Learn",
+        "score": 0.4764868242768401,
+        "terms": {
+          "G": 0.775,
+          "Q": 0.94,
+          "F": 0.0,
+          "D": 0.25,
+          "I": 0.5
+        },
+        "weighted": {
+          "G": 0.232,
+          "Q": 0.094,
+          "F": 0.0,
+          "D": 0.15,
+          "I": 0.0
+        },
+        "explanation": "Learn DDD topic 4: your predicted mastery is still low (23%). DDD topic 4 is at the right level for you now (predicted success 23%)."
+      }
+    ],
+    "observed_outcome_group": "passed next assessment"
+  },
+  {
+    "student_group": "struggling",
+    "student_sid": 3246,
+    "module": "DDD",
+    "presentation": "2014B",
+    "decision_day": 23.0,
+    "next_assessment_topic": 2,
+    "ability": 0.9343815699860828,
+    "config": "A5",
+    "path": [
+      {
+        "position": 1,
+        "topic": "DDD topic 1",
+        "action": "Revise",
+        "score": 0.6870069216432699,
+        "terms": {
+          "G": 0.2,
+          "Q": 1.0,
+          "F": 0.009,
+          "D": 0.878,
+          "I": 0.296
+        },
+        "weighted": {
+          "G": 0.06,
+          "Q": 0.1,
+          "F": 0.0,
+          "D": 0.527,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 1 is at the right level for you now (predicted success 79%)."
+      },
+      {
+        "position": 2,
+        "topic": "DDD topic 2",
+        "action": "Practice",
+        "score": 0.704599267436228,
+        "terms": {
+          "G": 0.095,
+          "Q": 0.791,
+          "F": 0.0,
+          "D": 0.995,
+          "I": 0.128
+        },
+        "weighted": {
+          "G": 0.029,
+          "Q": 0.079,
+          "F": 0.0,
+          "D": 0.597,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 2 is at the right level for you now (predicted success 90%)."
+      },
+      {
+        "position": 3,
+        "topic": "DDD topic 3",
+        "action": "Learn",
+        "score": 0.5993519911261527,
+        "terms": {
+          "G": 0.43,
+          "Q": 0.905,
+          "F": 0.0,
+          "D": 0.633,
+          "I": 0.5
+        },
+        "weighted": {
+          "G": 0.129,
+          "Q": 0.09,
+          "F": 0.0,
+          "D": 0.38,
+          "I": 0.0
+        },
+        "explanation": "DDD topic 3 is at the right level for you now (predicted success 57%)."
+      },
+      {
+        "position": 4,
+        "topic": "DDD topic 4",
+        "action": "Learn",
+        "score": 0.4286187382227742,
+        "terms": {
+          "G": 0.805,
+          "Q": 0.57,
+          "F": 0.0,
+          "D": 0.217,
+          "I": 0.5
+        },
+        "weighted": {
+          "G": 0.241,
+          "Q": 0.057,
+          "F": 0.0,
+          "D": 0.13,
+          "I": 0.0
+        },
+        "explanation": "Learn DDD topic 4: your predicted mastery is still low (20%). DDD topic 4 is at the right level for you now (predicted success 20%)."
+      }
+    ],
+    "observed_outcome_group": "passed next assessment"
+  }
+]

@@ -1,0 +1,4 @@
+sensitivity,comparison,NDCG@5_x,NDCG@5_y,diff,p_wilcoxon,x_greater_holds,significant_0.05,note,gain_x,gain_y,simulator_test_AUC
+"default (pass 40, non-submission excluded, chain)",A5 vs A3,0.851706978420301,0.839025992842329,0.012680985577971926,1.104762862645972e-09,True,True,chain = data graph here (no data-derived edge qualifies at pass mark 40),,,
+windows 7_30_inf (simulator),A5 vs A3 (simulated gain),,,-8.608456810616037e-05,0.5021291716932714,False,False,A3/A5 rankings do not use windows; only the simulator changes,0.0010854274649321418,0.0011715120330383021,0.8943023613604487
+windows 7_14_30_inf (simulator),A5 vs A3 (simulated gain),,,-8.675919977506005e-05,0.4793598602573641,False,False,A3/A5 rankings do not use windows; only the simulator changes,0.0011148440634192868,0.0012016032631943468,0.8945035932925207

@@ -1,0 +1,17 @@
+{
+  "n_pairs": 27066,
+  "mean": 24.106591295352104,
+  "sd": 18.38679946015789,
+  "q": {
+    "0.05": 1.0,
+    "0.25": 3.0,
+    "0.5": 28.0,
+    "0.75": 38.0,
+    "0.95": 51.0
+  },
+  "within_topic_sd": 14.605846208651501,
+  "share_variance_within_topic": 0.6310171577972433,
+  "median_within_topic_iqr": 9.0,
+  "share_pairs_revised_after_submission": 0.5377595507278504,
+  "narrow": false
+}

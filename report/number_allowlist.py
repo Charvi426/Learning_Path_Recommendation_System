@@ -1,0 +1,45 @@
+"""Literal numbers allowed in main.tex's prose, each with the reason it is not a result.
+
+Every entry pins the number to its exact surroundings (text before, number, text after; plain substrings), so a
+result typed by hand cannot slip through because it happens to equal a setting.
+"""
+
+JUSTIFIED = [
+    ("India ", "2310110452", "}", "roll number, from the midterm report"),
+    ("India ", "2310110419", "}", "roll number, from the midterm report"),
+    ("a score of at least ", "40", ".", "pass mark (Methodology 3.4)"),
+    ("pass mark of ", "70", " ", "sensitivity pass mark (Methodology 7.6)"),
+    ("&= ", "2", "^{-\\Delta", "base of the half-life curve"),
+    ("at least ", "3", " clicks on the topic's own", "reset threshold (Methodology 5.1)"),
+    ("bounded between ", "1", " and 365 days", "half-life bound (config/config.yaml)"),
+    ("bounded between 1 and ", "365", " days", "half-life bound (config/config.yaml)"),
+    ("y_{s,k}=", "1", ")", "the pass label in the model definition"),
+    ("($R=", "1", "$)", "definition of no forgetting"),
+    ("(t-t_i+", "1", ")", "definition of the activation"),
+    ("entropy at least ", "0.80", ")", "fixed navigation rule (DECISIONS v3-1)"),
+    ("entropy above ", "0.4", ")", "frozen attribution setting (final_config_v3.yaml)"),
+    ("within ", "2", " topics of the current", "candidate horizon (config/config.yaml)"),
+    ("lowest ", "50", "\\% of each", "frozen q_rev (final_config_v2.yaml)"),
+    ("$G=", "1", "-M$", "definition of G"),
+    ("$D=", "1", "-|K-p", "definition of D"),
+    ("\\max(p^*,", "1", "-p^*)", "definition of D"),
+    ("up to ", "5", " items", "path length (config/config.yaml)"),
+    ("at most ", "3", " of them revisions", "revision cap (config/config.yaml)"),
+    ("each of the last ", "4", " weeks", "planner weeks (final_config_v3.yaml)"),
+    ("lists the ", "3", " topics", "planner top-3 (final_config_v3.yaml)"),
+    ("by more than ", "0.002", "", "preregistered margin (PREREGISTRATION_v3.md)"),
+    ("v2's $-", "0.096", "$", "preregistered reference (PREREGISTRATION_v3.md)"),
+    ("improvement above ", "0", ",", "preregistered threshold (PREREGISTRATION_v3.md)"),
+    ("at least ", "10", " clicks in the following", "Rel-A threshold (Methodology 7.2)"),
+    ("up to ", "2", " before it", "Rel-B depth (Methodology 7.2)"),
+    ("are ", "95", "\\% bootstrap", "confidence level (Methodology 7.6)"),
+    ("(", "1{,}000", " resamples", "bootstrap resamples (config/config.yaml)"),
+    ("and ", "200", " for coefficients", "coefficient resamples (config/config.yaml)"),
+    ("On topic ", "1", ", where", "topic label"),
+    ("where no topic ", "1", " row is affected", "topic label"),
+    ("planner's ", "4", " weeks fall", "planner weeks (final_config_v3.yaml)"),
+    ("revision dose on topics ", "2", " to 5", "topic label"),
+    ("revision dose on topics 2 to ", "5", "", "topic label"),
+    ("Example: topic ", "2", " of the", "topic label in a caption"),
+    ("p^*=", "0.9", "$", "frozen target p* (final_config_v3.yaml)"),
+]

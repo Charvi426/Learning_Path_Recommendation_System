@@ -1,0 +1,45 @@
+{
+  "filters": {
+    "mode": "within",
+    "q_rev": 50,
+    "q_new": 30,
+    "tau_q": 0.4,
+    "p_star": 0.9
+  },
+  "weights": {
+    "G": 0.3,
+    "Q": 0.0,
+    "F": 0.2,
+    "D": 0.3,
+    "I": 0.0,
+    "Pop": 0.2
+  },
+  "val_NDCG@5": 0.7863022411470659,
+  "val_R@5": 0.7644967703869325,
+  "n_weight_vectors": 1001,
+  "val_filter_diagnostics": {
+    "mean_candidates": 3.805576873880788,
+    "mean_new_candidates": 2.1414684062420055,
+    "mean_revision_candidates": 1.6641084676387823,
+    "share_upcoming_removed_by_mastery_filter": 0.00012871669455528383,
+    "share_dp_with_revision_flag": 1.0,
+    "share_dp_mastery_filter_active": 0.014070094653364031,
+    "share_paths_with_revise": 1.0,
+    "share_paths_with_upcoming": 0.9296495267331798,
+    "mean_path_length": 3.805576873880788
+  },
+  "config": {
+    "kind": "score",
+    "label": "A5 + popularity",
+    "model": "learned",
+    "active": [
+      "G",
+      "Q",
+      "D",
+      "F",
+      "Pop"
+    ],
+    "graph": "chain",
+    "pop": "train_window"
+  }
+}

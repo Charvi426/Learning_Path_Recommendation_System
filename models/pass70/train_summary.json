@@ -1,0 +1,29 @@
+{
+  "variant": "pass70",
+  "identification": {
+    "n_pairs": 20017,
+    "mean": 19.992806114802416,
+    "sd": 17.908006333797893,
+    "q": {
+      "0.05": 1.0,
+      "0.25": 2.0,
+      "0.5": 16.0,
+      "0.75": 36.0,
+      "0.95": 49.0
+    },
+    "within_topic_sd": 13.681338436471524,
+    "share_variance_within_topic": 0.58366371326244,
+    "median_within_topic_iqr": 12.0,
+    "share_pairs_revised_after_submission": 0.6557925763101364,
+    "narrow": false
+  },
+  "das3h_windows": "7_30_inf",
+  "fixed_S": 14,
+  "l2": {
+    "none": 0.001,
+    "fixed": 0.001,
+    "learned": 1e-05,
+    "learnedI": 0.001
+  },
+  "seconds": 44.05955719947815
+}

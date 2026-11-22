@@ -1,0 +1,7739 @@
+[
+ {
+  "used_in": "table:criteria:0:1",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "auc_v3",
+  "where": [],
+  "style": "3",
+  "text": "0.848"
+ },
+ {
+  "used_in": "table:criteria:0:1",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "auc_v3_lo",
+  "where": [],
+  "style": "3",
+  "text": "0.838"
+ },
+ {
+  "used_in": "table:criteria:0:1",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "auc_v3_hi",
+  "where": [],
+  "style": "3",
+  "text": "0.859"
+ },
+ {
+  "used_in": "table:criteria:0:2",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "auc_v2",
+  "where": [],
+  "style": "3",
+  "text": "0.841"
+ },
+ {
+  "used_in": "table:criteria:0:2",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "auc_v2_lo",
+  "where": [],
+  "style": "3",
+  "text": "0.831"
+ },
+ {
+  "used_in": "table:criteria:0:2",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "auc_v2_hi",
+  "where": [],
+  "style": "3",
+  "text": "0.851"
+ },
+ {
+  "used_in": "table:criteria:0:3",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "diff",
+  "where": [],
+  "style": "+3",
+  "text": "+0.007"
+ },
+ {
+  "used_in": "table:criteria:0:3",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "diff_lo",
+  "where": [],
+  "style": "+3",
+  "text": "+0.003"
+ },
+ {
+  "used_in": "table:criteria:0:3",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "diff_hi",
+  "where": [],
+  "style": "+3",
+  "text": "+0.011"
+ },
+ {
+  "used_in": "table:criteria:1:1",
+  "file": "results/v3/holdout/exam_check_CCC.csv",
+  "col": "v3_delta_rho",
+  "where": [],
+  "style": "+3",
+  "text": "-0.026"
+ },
+ {
+  "used_in": "table:criteria:1:2",
+  "file": "results/v3/holdout/exam_check_CCC.csv",
+  "col": "v2_delta_rho_recomputed",
+  "where": [],
+  "style": "+3",
+  "text": "-0.096"
+ },
+ {
+  "used_in": "table:criteria:1:3",
+  "file": "results/v3/holdout/exam_check_CCC.csv",
+  "col": "improvement",
+  "where": [],
+  "style": "+3",
+  "text": "+0.070"
+ },
+ {
+  "used_in": "table:criteria:1:3",
+  "file": "results/v3/holdout/exam_check_CCC.csv",
+  "col": "ci_lo",
+  "where": [],
+  "style": "+3",
+  "text": "+0.052"
+ },
+ {
+  "used_in": "table:criteria:1:3",
+  "file": "results/v3/holdout/exam_check_CCC.csv",
+  "col": "ci_hi",
+  "where": [],
+  "style": "+3",
+  "text": "+0.088"
+ },
+ {
+  "used_in": "table:criteria:2:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.654"
+ },
+ {
+  "used_in": "table:criteria:2:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v3:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.646"
+ },
+ {
+  "used_in": "table:criteria:2:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v3:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.661"
+ },
+ {
+  "used_in": "table:criteria:2:2",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.718"
+ },
+ {
+  "used_in": "table:criteria:2:2",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.712"
+ },
+ {
+  "used_in": "table:criteria:2:2",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.723"
+ },
+ {
+  "used_in": "table:criteria:2:3",
+  "file": "results/v3/holdout/recommender_wilcoxon_holdout.csv",
+  "col": "mean_diff",
+  "where": [
+   [
+    "comparison",
+    "v3 A5 vs v2 A5"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.064"
+ },
+ {
+  "used_in": "table:pred_v1:0:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "majority"
+   ]
+  ],
+  "style": "3",
+  "text": "0.500"
+ },
+ {
+  "used_in": "table:pred_v1:0:2",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "logloss",
+  "where": [
+   [
+    "model",
+    "majority"
+   ]
+  ],
+  "style": "3",
+  "text": "0.186"
+ },
+ {
+  "used_in": "table:pred_v1:0:3",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "Brier",
+  "where": [
+   [
+    "model",
+    "majority"
+   ]
+  ],
+  "style": "3",
+  "text": "0.043"
+ },
+ {
+  "used_in": "table:pred_v1:1:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "topic_difficulty"
+   ]
+  ],
+  "style": "3",
+  "text": "0.848"
+ },
+ {
+  "used_in": "table:pred_v1:1:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "model",
+    "topic_difficulty"
+   ]
+  ],
+  "style": "3",
+  "text": "0.833"
+ },
+ {
+  "used_in": "table:pred_v1:1:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "model",
+    "topic_difficulty"
+   ]
+  ],
+  "style": "3",
+  "text": "0.863"
+ },
+ {
+  "used_in": "table:pred_v1:1:2",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "logloss",
+  "where": [
+   [
+    "model",
+    "topic_difficulty"
+   ]
+  ],
+  "style": "3",
+  "text": "0.138"
+ },
+ {
+  "used_in": "table:pred_v1:1:3",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "Brier",
+  "where": [
+   [
+    "model",
+    "topic_difficulty"
+   ]
+  ],
+  "style": "3",
+  "text": "0.034"
+ },
+ {
+  "used_in": "table:pred_v1:2:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "pfa"
+   ]
+  ],
+  "style": "3",
+  "text": "0.890"
+ },
+ {
+  "used_in": "table:pred_v1:2:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "model",
+    "pfa"
+   ]
+  ],
+  "style": "3",
+  "text": "0.876"
+ },
+ {
+  "used_in": "table:pred_v1:2:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "model",
+    "pfa"
+   ]
+  ],
+  "style": "3",
+  "text": "0.903"
+ },
+ {
+  "used_in": "table:pred_v1:2:2",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "logloss",
+  "where": [
+   [
+    "model",
+    "pfa"
+   ]
+  ],
+  "style": "3",
+  "text": "0.131"
+ },
+ {
+  "used_in": "table:pred_v1:2:3",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "Brier",
+  "where": [
+   [
+    "model",
+    "pfa"
+   ]
+  ],
+  "style": "3",
+  "text": "0.033"
+ },
+ {
+  "used_in": "table:pred_v1:3:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "none"
+   ]
+  ],
+  "style": "3",
+  "text": "0.900"
+ },
+ {
+  "used_in": "table:pred_v1:3:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "model",
+    "none"
+   ]
+  ],
+  "style": "3",
+  "text": "0.888"
+ },
+ {
+  "used_in": "table:pred_v1:3:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "model",
+    "none"
+   ]
+  ],
+  "style": "3",
+  "text": "0.912"
+ },
+ {
+  "used_in": "table:pred_v1:3:2",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "logloss",
+  "where": [
+   [
+    "model",
+    "none"
+   ]
+  ],
+  "style": "3",
+  "text": "0.129"
+ },
+ {
+  "used_in": "table:pred_v1:3:3",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "Brier",
+  "where": [
+   [
+    "model",
+    "none"
+   ]
+  ],
+  "style": "3",
+  "text": "0.033"
+ },
+ {
+  "used_in": "table:pred_v1:4:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "fixed"
+   ]
+  ],
+  "style": "3",
+  "text": "0.900"
+ },
+ {
+  "used_in": "table:pred_v1:4:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "model",
+    "fixed"
+   ]
+  ],
+  "style": "3",
+  "text": "0.888"
+ },
+ {
+  "used_in": "table:pred_v1:4:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "model",
+    "fixed"
+   ]
+  ],
+  "style": "3",
+  "text": "0.911"
+ },
+ {
+  "used_in": "table:pred_v1:4:2",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "logloss",
+  "where": [
+   [
+    "model",
+    "fixed"
+   ]
+  ],
+  "style": "3",
+  "text": "0.129"
+ },
+ {
+  "used_in": "table:pred_v1:4:3",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "Brier",
+  "where": [
+   [
+    "model",
+    "fixed"
+   ]
+  ],
+  "style": "3",
+  "text": "0.034"
+ },
+ {
+  "used_in": "table:pred_v1:5:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "3",
+  "text": "0.902"
+ },
+ {
+  "used_in": "table:pred_v1:5:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "3",
+  "text": "0.890"
+ },
+ {
+  "used_in": "table:pred_v1:5:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "3",
+  "text": "0.914"
+ },
+ {
+  "used_in": "table:pred_v1:5:2",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "logloss",
+  "where": [
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "3",
+  "text": "0.128"
+ },
+ {
+  "used_in": "table:pred_v1:5:3",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "Brier",
+  "where": [
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "3",
+  "text": "0.033"
+ },
+ {
+  "used_in": "table:pred_v1:6:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ]
+  ],
+  "style": "3",
+  "text": "0.900"
+ },
+ {
+  "used_in": "table:pred_v1:6:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ]
+  ],
+  "style": "3",
+  "text": "0.888"
+ },
+ {
+  "used_in": "table:pred_v1:6:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ]
+  ],
+  "style": "3",
+  "text": "0.912"
+ },
+ {
+  "used_in": "table:pred_v1:6:2",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "logloss",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ]
+  ],
+  "style": "3",
+  "text": "0.128"
+ },
+ {
+  "used_in": "table:pred_v1:6:3",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "Brier",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ]
+  ],
+  "style": "3",
+  "text": "0.033"
+ },
+ {
+  "used_in": "table:pred_v1:7:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "das3h"
+   ]
+  ],
+  "style": "3",
+  "text": "0.889"
+ },
+ {
+  "used_in": "table:pred_v1:7:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "model",
+    "das3h"
+   ]
+  ],
+  "style": "3",
+  "text": "0.875"
+ },
+ {
+  "used_in": "table:pred_v1:7:1",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "model",
+    "das3h"
+   ]
+  ],
+  "style": "3",
+  "text": "0.902"
+ },
+ {
+  "used_in": "table:pred_v1:7:2",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "logloss",
+  "where": [
+   [
+    "model",
+    "das3h"
+   ]
+  ],
+  "style": "3",
+  "text": "0.133"
+ },
+ {
+  "used_in": "table:pred_v1:7:3",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "Brier",
+  "where": [
+   [
+    "model",
+    "das3h"
+   ]
+  ],
+  "style": "3",
+  "text": "0.033"
+ },
+ {
+  "used_in": "table:pred_v2:0:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "topic_difficulty"
+   ]
+  ],
+  "style": "3",
+  "text": "0.821"
+ },
+ {
+  "used_in": "table:pred_v2:0:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "model",
+    "topic_difficulty"
+   ]
+  ],
+  "style": "3",
+  "text": "0.809"
+ },
+ {
+  "used_in": "table:pred_v2:0:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "model",
+    "topic_difficulty"
+   ]
+  ],
+  "style": "3",
+  "text": "0.833"
+ },
+ {
+  "used_in": "table:pred_v2:0:2",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "logloss",
+  "where": [
+   [
+    "model",
+    "topic_difficulty"
+   ]
+  ],
+  "style": "3",
+  "text": "0.197"
+ },
+ {
+  "used_in": "table:pred_v2:1:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "pfa"
+   ]
+  ],
+  "style": "3",
+  "text": "0.854"
+ },
+ {
+  "used_in": "table:pred_v2:1:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "model",
+    "pfa"
+   ]
+  ],
+  "style": "3",
+  "text": "0.843"
+ },
+ {
+  "used_in": "table:pred_v2:1:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "model",
+    "pfa"
+   ]
+  ],
+  "style": "3",
+  "text": "0.865"
+ },
+ {
+  "used_in": "table:pred_v2:1:2",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "logloss",
+  "where": [
+   [
+    "model",
+    "pfa"
+   ]
+  ],
+  "style": "3",
+  "text": "0.184"
+ },
+ {
+  "used_in": "table:pred_v2:2:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "none"
+   ]
+  ],
+  "style": "3",
+  "text": "0.848"
+ },
+ {
+  "used_in": "table:pred_v2:2:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "model",
+    "none"
+   ]
+  ],
+  "style": "3",
+  "text": "0.838"
+ },
+ {
+  "used_in": "table:pred_v2:2:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "model",
+    "none"
+   ]
+  ],
+  "style": "3",
+  "text": "0.857"
+ },
+ {
+  "used_in": "table:pred_v2:2:2",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "logloss",
+  "where": [
+   [
+    "model",
+    "none"
+   ]
+  ],
+  "style": "3",
+  "text": "0.202"
+ },
+ {
+  "used_in": "table:pred_v2:3:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "fixed"
+   ]
+  ],
+  "style": "3",
+  "text": "0.847"
+ },
+ {
+  "used_in": "table:pred_v2:3:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "model",
+    "fixed"
+   ]
+  ],
+  "style": "3",
+  "text": "0.837"
+ },
+ {
+  "used_in": "table:pred_v2:3:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "model",
+    "fixed"
+   ]
+  ],
+  "style": "3",
+  "text": "0.857"
+ },
+ {
+  "used_in": "table:pred_v2:3:2",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "logloss",
+  "where": [
+   [
+    "model",
+    "fixed"
+   ]
+  ],
+  "style": "3",
+  "text": "0.203"
+ },
+ {
+  "used_in": "table:pred_v2:4:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "3",
+  "text": "0.847"
+ },
+ {
+  "used_in": "table:pred_v2:4:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "3",
+  "text": "0.837"
+ },
+ {
+  "used_in": "table:pred_v2:4:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "3",
+  "text": "0.857"
+ },
+ {
+  "used_in": "table:pred_v2:4:2",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "logloss",
+  "where": [
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "3",
+  "text": "0.203"
+ },
+ {
+  "used_in": "table:pred_v2:5:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ]
+  ],
+  "style": "3",
+  "text": "0.847"
+ },
+ {
+  "used_in": "table:pred_v2:5:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ]
+  ],
+  "style": "3",
+  "text": "0.837"
+ },
+ {
+  "used_in": "table:pred_v2:5:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ]
+  ],
+  "style": "3",
+  "text": "0.857"
+ },
+ {
+  "used_in": "table:pred_v2:5:2",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "logloss",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ]
+  ],
+  "style": "3",
+  "text": "0.201"
+ },
+ {
+  "used_in": "table:pred_v2:6:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "das3h"
+   ]
+  ],
+  "style": "3",
+  "text": "0.858"
+ },
+ {
+  "used_in": "table:pred_v2:6:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "model",
+    "das3h"
+   ]
+  ],
+  "style": "3",
+  "text": "0.846"
+ },
+ {
+  "used_in": "table:pred_v2:6:1",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "model",
+    "das3h"
+   ]
+  ],
+  "style": "3",
+  "text": "0.869"
+ },
+ {
+  "used_in": "table:pred_v2:6:2",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "logloss",
+  "where": [
+   [
+    "model",
+    "das3h"
+   ]
+  ],
+  "style": "3",
+  "text": "0.179"
+ },
+ {
+  "used_in": "table:pred_v3:0:1",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "auc_v2",
+  "where": [],
+  "style": "3",
+  "text": "0.841"
+ },
+ {
+  "used_in": "table:pred_v3:0:2",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "auc_v3",
+  "where": [],
+  "style": "3",
+  "text": "0.848"
+ },
+ {
+  "used_in": "table:pred_v3:0:3",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "diff",
+  "where": [],
+  "style": "+3",
+  "text": "+0.007"
+ },
+ {
+  "used_in": "table:pred_v3:0:3",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "diff_lo",
+  "where": [],
+  "style": "+3",
+  "text": "+0.003"
+ },
+ {
+  "used_in": "table:pred_v3:0:3",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "diff_hi",
+  "where": [],
+  "style": "+3",
+  "text": "+0.011"
+ },
+ {
+  "used_in": "table:pred_v3:1:1",
+  "file": "results/v3/posthoc_2014J/model_metrics_2014J.csv",
+  "col": "auc_v2",
+  "where": [],
+  "style": "3",
+  "text": "0.906"
+ },
+ {
+  "used_in": "table:pred_v3:1:2",
+  "file": "results/v3/posthoc_2014J/model_metrics_2014J.csv",
+  "col": "auc_v3",
+  "where": [],
+  "style": "3",
+  "text": "0.910"
+ },
+ {
+  "used_in": "table:pred_v3:1:3",
+  "file": "results/v3/posthoc_2014J/model_metrics_2014J.csv",
+  "col": "diff",
+  "where": [],
+  "style": "+3",
+  "text": "+0.005"
+ },
+ {
+  "used_in": "table:pred_v3:1:3",
+  "file": "results/v3/posthoc_2014J/model_metrics_2014J.csv",
+  "col": "diff_lo",
+  "where": [],
+  "style": "+3",
+  "text": "0.000"
+ },
+ {
+  "used_in": "table:pred_v3:1:3",
+  "file": "results/v3/posthoc_2014J/model_metrics_2014J.csv",
+  "col": "diff_hi",
+  "where": [],
+  "style": "+3",
+  "text": "+0.009"
+ },
+ {
+  "used_in": "table:dkt:0:1",
+  "file": "results/tables/dkt_comparison.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "split",
+    "test"
+   ],
+   [
+    "model",
+    "dkt"
+   ]
+  ],
+  "style": "3",
+  "text": "0.783"
+ },
+ {
+  "used_in": "table:dkt:0:1",
+  "file": "results/tables/dkt_comparison.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "split",
+    "test"
+   ],
+   [
+    "model",
+    "dkt"
+   ]
+  ],
+  "style": "3",
+  "text": "0.764"
+ },
+ {
+  "used_in": "table:dkt:0:1",
+  "file": "results/tables/dkt_comparison.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "split",
+    "test"
+   ],
+   [
+    "model",
+    "dkt"
+   ]
+  ],
+  "style": "3",
+  "text": "0.801"
+ },
+ {
+  "used_in": "table:dkt:1:1",
+  "file": "results/tables/dkt_comparison.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "split",
+    "test"
+   ],
+   [
+    "model",
+    "pfa"
+   ]
+  ],
+  "style": "3",
+  "text": "0.882"
+ },
+ {
+  "used_in": "table:dkt:1:1",
+  "file": "results/tables/dkt_comparison.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "split",
+    "test"
+   ],
+   [
+    "model",
+    "pfa"
+   ]
+  ],
+  "style": "3",
+  "text": "0.868"
+ },
+ {
+  "used_in": "table:dkt:1:1",
+  "file": "results/tables/dkt_comparison.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "split",
+    "test"
+   ],
+   [
+    "model",
+    "pfa"
+   ]
+  ],
+  "style": "3",
+  "text": "0.895"
+ },
+ {
+  "used_in": "table:dkt:2:1",
+  "file": "results/tables/dkt_comparison.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "split",
+    "test"
+   ],
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "3",
+  "text": "0.898"
+ },
+ {
+  "used_in": "table:dkt:2:1",
+  "file": "results/tables/dkt_comparison.csv",
+  "col": "AUC_lo",
+  "where": [
+   [
+    "split",
+    "test"
+   ],
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "3",
+  "text": "0.886"
+ },
+ {
+  "used_in": "table:dkt:2:1",
+  "file": "results/tables/dkt_comparison.csv",
+  "col": "AUC_hi",
+  "where": [
+   [
+    "split",
+    "test"
+   ],
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "3",
+  "text": "0.910"
+ },
+ {
+  "used_in": "table:rank_v1:0:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A0"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.739"
+ },
+ {
+  "used_in": "table:rank_v1:0:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "A0"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.734"
+ },
+ {
+  "used_in": "table:rank_v1:0:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "A0"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.744"
+ },
+ {
+  "used_in": "table:rank_v1:0:2",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A0"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.737"
+ },
+ {
+  "used_in": "table:rank_v1:0:3",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A0"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.726"
+ },
+ {
+  "used_in": "table:rank_v1:1:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A1"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.946"
+ },
+ {
+  "used_in": "table:rank_v1:1:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "A1"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.944"
+ },
+ {
+  "used_in": "table:rank_v1:1:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "A1"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.949"
+ },
+ {
+  "used_in": "table:rank_v1:1:2",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A1"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.952"
+ },
+ {
+  "used_in": "table:rank_v1:1:3",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A1"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.824"
+ },
+ {
+  "used_in": "table:rank_v1:2:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A2"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.653"
+ },
+ {
+  "used_in": "table:rank_v1:2:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "A2"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.648"
+ },
+ {
+  "used_in": "table:rank_v1:2:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "A2"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.658"
+ },
+ {
+  "used_in": "table:rank_v1:2:2",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A2"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.648"
+ },
+ {
+  "used_in": "table:rank_v1:2:3",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A2"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.698"
+ },
+ {
+  "used_in": "table:rank_v1:3:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.828"
+ },
+ {
+  "used_in": "table:rank_v1:3:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.823"
+ },
+ {
+  "used_in": "table:rank_v1:3:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.833"
+ },
+ {
+  "used_in": "table:rank_v1:3:2",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A3"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.840"
+ },
+ {
+  "used_in": "table:rank_v1:3:3",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A3"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.553"
+ },
+ {
+  "used_in": "table:rank_v1:4:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A4"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.843"
+ },
+ {
+  "used_in": "table:rank_v1:4:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "A4"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.839"
+ },
+ {
+  "used_in": "table:rank_v1:4:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "A4"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.848"
+ },
+ {
+  "used_in": "table:rank_v1:4:2",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A4"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.841"
+ },
+ {
+  "used_in": "table:rank_v1:4:3",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A4"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.824"
+ },
+ {
+  "used_in": "table:rank_v1:5:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.840"
+ },
+ {
+  "used_in": "table:rank_v1:5:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.835"
+ },
+ {
+  "used_in": "table:rank_v1:5:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.844"
+ },
+ {
+  "used_in": "table:rank_v1:5:2",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A5"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.838"
+ },
+ {
+  "used_in": "table:rank_v1:5:3",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A5"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.805"
+ },
+ {
+  "used_in": "table:rank_v1:6:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.837"
+ },
+ {
+  "used_in": "table:rank_v1:6:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.833"
+ },
+ {
+  "used_in": "table:rank_v1:6:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.842"
+ },
+ {
+  "used_in": "table:rank_v1:6:2",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A6"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.836"
+ },
+ {
+  "used_in": "table:rank_v1:6:3",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A6"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.802"
+ },
+ {
+  "used_in": "table:rank_v1:7:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A7"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.837"
+ },
+ {
+  "used_in": "table:rank_v1:7:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "A7"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.833"
+ },
+ {
+  "used_in": "table:rank_v1:7:1",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "A7"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.842"
+ },
+ {
+  "used_in": "table:rank_v1:7:2",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A7"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.836"
+ },
+ {
+  "used_in": "table:rank_v1:7:3",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A7"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.802"
+ },
+ {
+  "used_in": "table:rank_holdout:0:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v1:A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.702"
+ },
+ {
+  "used_in": "table:rank_holdout:0:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v1:A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.696"
+ },
+ {
+  "used_in": "table:rank_holdout:0:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v1:A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.708"
+ },
+ {
+  "used_in": "table:rank_holdout:0:2",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v1:A3"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.700"
+ },
+ {
+  "used_in": "table:rank_holdout:0:3",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v1:A3"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.635"
+ },
+ {
+  "used_in": "table:rank_holdout:1:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v1:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.729"
+ },
+ {
+  "used_in": "table:rank_holdout:1:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v1:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.724"
+ },
+ {
+  "used_in": "table:rank_holdout:1:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v1:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.733"
+ },
+ {
+  "used_in": "table:rank_holdout:1:2",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v1:A5"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.722"
+ },
+ {
+  "used_in": "table:rank_holdout:1:3",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v1:A5"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.768"
+ },
+ {
+  "used_in": "table:rank_holdout:2:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v1:A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.745"
+ },
+ {
+  "used_in": "table:rank_holdout:2:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v1:A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.740"
+ },
+ {
+  "used_in": "table:rank_holdout:2:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v1:A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.749"
+ },
+ {
+  "used_in": "table:rank_holdout:2:2",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v1:A6"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.738"
+ },
+ {
+  "used_in": "table:rank_holdout:2:3",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v1:A6"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.775"
+ },
+ {
+  "used_in": "table:rank_holdout:3:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A1"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.893"
+ },
+ {
+  "used_in": "table:rank_holdout:3:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v2:A1"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.889"
+ },
+ {
+  "used_in": "table:rank_holdout:3:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v2:A1"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.896"
+ },
+ {
+  "used_in": "table:rank_holdout:3:2",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A1"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.893"
+ },
+ {
+  "used_in": "table:rank_holdout:3:3",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A1"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.879"
+ },
+ {
+  "used_in": "table:rank_holdout:4:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.708"
+ },
+ {
+  "used_in": "table:rank_holdout:4:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v2:A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.703"
+ },
+ {
+  "used_in": "table:rank_holdout:4:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v2:A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.713"
+ },
+ {
+  "used_in": "table:rank_holdout:4:2",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A3"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.704"
+ },
+ {
+  "used_in": "table:rank_holdout:4:3",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A3"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.720"
+ },
+ {
+  "used_in": "table:rank_holdout:5:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.718"
+ },
+ {
+  "used_in": "table:rank_holdout:5:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.712"
+ },
+ {
+  "used_in": "table:rank_holdout:5:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.723"
+ },
+ {
+  "used_in": "table:rank_holdout:5:2",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.714"
+ },
+ {
+  "used_in": "table:rank_holdout:5:3",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.717"
+ },
+ {
+  "used_in": "table:rank_holdout:6:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.735"
+ },
+ {
+  "used_in": "table:rank_holdout:6:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v2:A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.730"
+ },
+ {
+  "used_in": "table:rank_holdout:6:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v2:A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.739"
+ },
+ {
+  "used_in": "table:rank_holdout:6:2",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A6"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.731"
+ },
+ {
+  "used_in": "table:rank_holdout:6:3",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A6"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.725"
+ },
+ {
+  "used_in": "table:rank_holdout:7:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A8"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.728"
+ },
+ {
+  "used_in": "table:rank_holdout:7:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v2:A8"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.723"
+ },
+ {
+  "used_in": "table:rank_holdout:7:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v2:A8"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.733"
+ },
+ {
+  "used_in": "table:rank_holdout:7:2",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A8"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.724"
+ },
+ {
+  "used_in": "table:rank_holdout:7:3",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A8"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.731"
+ },
+ {
+  "used_in": "table:rank_holdout:8:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A9"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.742"
+ },
+ {
+  "used_in": "table:rank_holdout:8:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v2:A9"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.737"
+ },
+ {
+  "used_in": "table:rank_holdout:8:1",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v2:A9"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.746"
+ },
+ {
+  "used_in": "table:rank_holdout:8:2",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A9"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.738"
+ },
+ {
+  "used_in": "table:rank_holdout:8:3",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A9"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.734"
+ },
+ {
+  "used_in": "table:rank_holdout:9:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.708"
+ },
+ {
+  "used_in": "table:rank_holdout:9:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v3:A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.703"
+ },
+ {
+  "used_in": "table:rank_holdout:9:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v3:A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.713"
+ },
+ {
+  "used_in": "table:rank_holdout:9:2",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A3"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.704"
+ },
+ {
+  "used_in": "table:rank_holdout:9:3",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A3"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.720"
+ },
+ {
+  "used_in": "table:rank_holdout:10:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.654"
+ },
+ {
+  "used_in": "table:rank_holdout:10:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v3:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.646"
+ },
+ {
+  "used_in": "table:rank_holdout:10:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v3:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.661"
+ },
+ {
+  "used_in": "table:rank_holdout:10:2",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A5"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.656"
+ },
+ {
+  "used_in": "table:rank_holdout:10:3",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A5"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.486"
+ },
+ {
+  "used_in": "table:rank_holdout:11:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.617"
+ },
+ {
+  "used_in": "table:rank_holdout:11:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v3:A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.610"
+ },
+ {
+  "used_in": "table:rank_holdout:11:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v3:A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.625"
+ },
+ {
+  "used_in": "table:rank_holdout:11:2",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A6"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.619"
+ },
+ {
+  "used_in": "table:rank_holdout:11:3",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A6"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.470"
+ },
+ {
+  "used_in": "table:rank_holdout:12:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A8"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.680"
+ },
+ {
+  "used_in": "table:rank_holdout:12:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v3:A8"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.673"
+ },
+ {
+  "used_in": "table:rank_holdout:12:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v3:A8"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.687"
+ },
+ {
+  "used_in": "table:rank_holdout:12:2",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A8"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.680"
+ },
+ {
+  "used_in": "table:rank_holdout:12:3",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A8"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.558"
+ },
+ {
+  "used_in": "table:rank_holdout:13:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A9"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.652"
+ },
+ {
+  "used_in": "table:rank_holdout:13:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v3:A9"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.645"
+ },
+ {
+  "used_in": "table:rank_holdout:13:1",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v3:A9"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.659"
+ },
+ {
+  "used_in": "table:rank_holdout:13:2",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A9"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.651"
+ },
+ {
+  "used_in": "table:rank_holdout:13:3",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A9"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.548"
+ },
+ {
+  "used_in": "table:rank_2014j:0:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A1"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.946"
+ },
+ {
+  "used_in": "table:rank_2014j:0:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v2:A1"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.944"
+ },
+ {
+  "used_in": "table:rank_2014j:0:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v2:A1"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.949"
+ },
+ {
+  "used_in": "table:rank_2014j:0:2",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A1"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.952"
+ },
+ {
+  "used_in": "table:rank_2014j:0:3",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A1"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.824"
+ },
+ {
+  "used_in": "table:rank_2014j:1:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.784"
+ },
+ {
+  "used_in": "table:rank_2014j:1:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v2:A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.780"
+ },
+ {
+  "used_in": "table:rank_2014j:1:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v2:A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.789"
+ },
+ {
+  "used_in": "table:rank_2014j:1:2",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A3"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.783"
+ },
+ {
+  "used_in": "table:rank_2014j:1:3",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A3"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.756"
+ },
+ {
+  "used_in": "table:rank_2014j:2:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.784"
+ },
+ {
+  "used_in": "table:rank_2014j:2:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.779"
+ },
+ {
+  "used_in": "table:rank_2014j:2:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.789"
+ },
+ {
+  "used_in": "table:rank_2014j:2:2",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.784"
+ },
+ {
+  "used_in": "table:rank_2014j:2:3",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.723"
+ },
+ {
+  "used_in": "table:rank_2014j:3:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.786"
+ },
+ {
+  "used_in": "table:rank_2014j:3:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v2:A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.782"
+ },
+ {
+  "used_in": "table:rank_2014j:3:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v2:A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.791"
+ },
+ {
+  "used_in": "table:rank_2014j:3:2",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A6"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.786"
+ },
+ {
+  "used_in": "table:rank_2014j:3:3",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A6"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.718"
+ },
+ {
+  "used_in": "table:rank_2014j:4:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A8"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.794"
+ },
+ {
+  "used_in": "table:rank_2014j:4:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v2:A8"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.790"
+ },
+ {
+  "used_in": "table:rank_2014j:4:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v2:A8"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.799"
+ },
+ {
+  "used_in": "table:rank_2014j:4:2",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A8"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.795"
+ },
+ {
+  "used_in": "table:rank_2014j:4:3",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A8"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.723"
+ },
+ {
+  "used_in": "table:rank_2014j:5:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A9"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.797"
+ },
+ {
+  "used_in": "table:rank_2014j:5:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v2:A9"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.792"
+ },
+ {
+  "used_in": "table:rank_2014j:5:1",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v2:A9"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.802"
+ },
+ {
+  "used_in": "table:rank_2014j:5:2",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A9"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.798"
+ },
+ {
+  "used_in": "table:rank_2014j:5:3",
+  "file": "results/v2/posthoc_2014J/ranking_metrics.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A9"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.721"
+ },
+ {
+  "used_in": "table:rank_2014j:6:1",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.730"
+ },
+ {
+  "used_in": "table:rank_2014j:6:1",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v3:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.724"
+ },
+ {
+  "used_in": "table:rank_2014j:6:1",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v3:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.738"
+ },
+ {
+  "used_in": "table:rank_2014j:6:2",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A5"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.735"
+ },
+ {
+  "used_in": "table:rank_2014j:6:3",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A5"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.529"
+ },
+ {
+  "used_in": "table:rank_2014j:7:1",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.723"
+ },
+ {
+  "used_in": "table:rank_2014j:7:1",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v3:A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.716"
+ },
+ {
+  "used_in": "table:rank_2014j:7:1",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v3:A6"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.730"
+ },
+ {
+  "used_in": "table:rank_2014j:7:2",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A6"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.729"
+ },
+ {
+  "used_in": "table:rank_2014j:7:3",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A6"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.507"
+ },
+ {
+  "used_in": "table:rank_2014j:8:1",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A8"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.774"
+ },
+ {
+  "used_in": "table:rank_2014j:8:1",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v3:A8"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.768"
+ },
+ {
+  "used_in": "table:rank_2014j:8:1",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v3:A8"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.781"
+ },
+ {
+  "used_in": "table:rank_2014j:8:2",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A8"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.781"
+ },
+ {
+  "used_in": "table:rank_2014j:8:3",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A8"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.557"
+ },
+ {
+  "used_in": "table:rank_2014j:9:1",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A9"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.767"
+ },
+ {
+  "used_in": "table:rank_2014j:9:1",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "config",
+    "v3:A9"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.761"
+ },
+ {
+  "used_in": "table:rank_2014j:9:1",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "config",
+    "v3:A9"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.774"
+ },
+ {
+  "used_in": "table:rank_2014j:9:2",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A9"
+   ],
+   [
+    "relevance",
+    "A"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.775"
+ },
+ {
+  "used_in": "table:rank_2014j:9:3",
+  "file": "results/v3/posthoc_2014J/recommender_2014J.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A9"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.537"
+ },
+ {
+  "used_in": "table:tests:0:1",
+  "file": "results/tables/wilcoxon_holm.csv",
+  "col": "mean_diff",
+  "where": [
+   [
+    "comparison",
+    "forgetting: A5 vs A3"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "+3",
+  "text": "+0.012"
+ },
+ {
+  "used_in": "table:tests:0:2",
+  "file": "results/tables/wilcoxon_holm.csv",
+  "col": "p_holm",
+  "where": [
+   [
+    "comparison",
+    "forgetting: A5 vs A3"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "p",
+  "text": "<0.0001"
+ },
+ {
+  "used_in": "table:tests:1:1",
+  "file": "results/tables/wilcoxon_holm.csv",
+  "col": "mean_diff",
+  "where": [
+   [
+    "comparison",
+    "learned vs fixed decay: A5 vs A4"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.004"
+ },
+ {
+  "used_in": "table:tests:1:2",
+  "file": "results/tables/wilcoxon_holm.csv",
+  "col": "p_holm",
+  "where": [
+   [
+    "comparison",
+    "learned vs fixed decay: A5 vs A4"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "p",
+  "text": "<0.0001"
+ },
+ {
+  "used_in": "table:tests:2:1",
+  "file": "results/tables/wilcoxon_holm.csv",
+  "col": "mean_diff",
+  "where": [
+   [
+    "comparison",
+    "interest: A6 vs A5"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.003"
+ },
+ {
+  "used_in": "table:tests:2:2",
+  "file": "results/tables/wilcoxon_holm.csv",
+  "col": "p_holm",
+  "where": [
+   [
+    "comparison",
+    "interest: A6 vs A5"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "p",
+  "text": "<0.0001"
+ },
+ {
+  "used_in": "table:tests:3:1",
+  "file": "results/v2/holdout/wilcoxon_holm_holdout.csv",
+  "col": "mean_diff",
+  "where": [
+   [
+    "comparison",
+    "forgetting: A5 vs A3 (v2)"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "+3",
+  "text": "+0.009"
+ },
+ {
+  "used_in": "table:tests:3:2",
+  "file": "results/v2/holdout/wilcoxon_holm_holdout.csv",
+  "col": "p_holm",
+  "where": [
+   [
+    "comparison",
+    "forgetting: A5 vs A3 (v2)"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "p",
+  "text": "<0.0001"
+ },
+ {
+  "used_in": "table:tests:4:1",
+  "file": "results/v2/holdout/wilcoxon_holm_holdout.csv",
+  "col": "mean_diff",
+  "where": [
+   [
+    "comparison",
+    "popularity term: A8 vs A1 (v2)"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.165"
+ },
+ {
+  "used_in": "table:tests:4:2",
+  "file": "results/v2/holdout/wilcoxon_holm_holdout.csv",
+  "col": "p_holm",
+  "where": [
+   [
+    "comparison",
+    "popularity term: A8 vs A1 (v2)"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "p",
+  "text": "<0.0001"
+ },
+ {
+  "used_in": "table:tests:5:1",
+  "file": "results/v2/holdout/wilcoxon_holm_holdout.csv",
+  "col": "mean_diff",
+  "where": [
+   [
+    "comparison",
+    "interest: A9 vs A8 (v2)"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "+3",
+  "text": "+0.014"
+ },
+ {
+  "used_in": "table:tests:5:2",
+  "file": "results/v2/holdout/wilcoxon_holm_holdout.csv",
+  "col": "p_holm",
+  "where": [
+   [
+    "comparison",
+    "interest: A9 vs A8 (v2)"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "p",
+  "text": "<0.0001"
+ },
+ {
+  "used_in": "table:tests:6:1",
+  "file": "results/v3/holdout/recommender_wilcoxon_holdout.csv",
+  "col": "mean_diff",
+  "where": [
+   [
+    "comparison",
+    "v3 A5 vs v2 A5"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.064"
+ },
+ {
+  "used_in": "table:tests:6:2",
+  "file": "results/v3/holdout/recommender_wilcoxon_holdout.csv",
+  "col": "p_holm",
+  "where": [
+   [
+    "comparison",
+    "v3 A5 vs v2 A5"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "p",
+  "text": "<0.0001"
+ },
+ {
+  "used_in": "table:tests:7:1",
+  "file": "results/v3/holdout/recommender_wilcoxon_holdout.csv",
+  "col": "mean_diff",
+  "where": [
+   [
+    "comparison",
+    "v3 A5 vs v3 A3"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.055"
+ },
+ {
+  "used_in": "table:tests:7:2",
+  "file": "results/v3/holdout/recommender_wilcoxon_holdout.csv",
+  "col": "p_holm",
+  "where": [
+   [
+    "comparison",
+    "v3 A5 vs v3 A3"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "p",
+  "text": "<0.0001"
+ },
+ {
+  "used_in": "table:tests:8:1",
+  "file": "results/v3/holdout/recommender_wilcoxon_holdout.csv",
+  "col": "mean_diff",
+  "where": [
+   [
+    "comparison",
+    "v3 A9 vs v3 A8"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.028"
+ },
+ {
+  "used_in": "table:tests:8:2",
+  "file": "results/v3/holdout/recommender_wilcoxon_holdout.csv",
+  "col": "p_holm",
+  "where": [
+   [
+    "comparison",
+    "v3 A9 vs v3 A8"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "p",
+  "text": "<0.0001"
+ },
+ {
+  "used_in": "table:exam:0:1",
+  "file": "results/tables/exam_retention_check.csv",
+  "col": "diff_spearman_K_minus_M",
+  "where": [
+   [
+    "variant",
+    "fixed"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.152"
+ },
+ {
+  "used_in": "table:exam:0:1",
+  "file": "results/tables/exam_retention_check.csv",
+  "col": "diff_lo",
+  "where": [
+   [
+    "variant",
+    "fixed"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.192"
+ },
+ {
+  "used_in": "table:exam:0:1",
+  "file": "results/tables/exam_retention_check.csv",
+  "col": "diff_hi",
+  "where": [
+   [
+    "variant",
+    "fixed"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.104"
+ },
+ {
+  "used_in": "table:exam:1:1",
+  "file": "results/tables/exam_retention_check.csv",
+  "col": "diff_spearman_K_minus_M",
+  "where": [
+   [
+    "variant",
+    "learned"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.088"
+ },
+ {
+  "used_in": "table:exam:1:1",
+  "file": "results/tables/exam_retention_check.csv",
+  "col": "diff_lo",
+  "where": [
+   [
+    "variant",
+    "learned"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.123"
+ },
+ {
+  "used_in": "table:exam:1:1",
+  "file": "results/tables/exam_retention_check.csv",
+  "col": "diff_hi",
+  "where": [
+   [
+    "variant",
+    "learned"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.050"
+ },
+ {
+  "used_in": "table:exam:2:1",
+  "file": "results/v2/holdout/exam_retention_check_holdout.csv",
+  "col": "diff_spearman_K_minus_M",
+  "where": [
+   [
+    "variant",
+    "fixed"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.298"
+ },
+ {
+  "used_in": "table:exam:2:1",
+  "file": "results/v2/holdout/exam_retention_check_holdout.csv",
+  "col": "diff_lo",
+  "where": [
+   [
+    "variant",
+    "fixed"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.337"
+ },
+ {
+  "used_in": "table:exam:2:1",
+  "file": "results/v2/holdout/exam_retention_check_holdout.csv",
+  "col": "diff_hi",
+  "where": [
+   [
+    "variant",
+    "fixed"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.262"
+ },
+ {
+  "used_in": "table:exam:3:1",
+  "file": "results/v2/holdout/exam_retention_check_holdout.csv",
+  "col": "diff_spearman_K_minus_M",
+  "where": [
+   [
+    "variant",
+    "learned"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.096"
+ },
+ {
+  "used_in": "table:exam:3:1",
+  "file": "results/v2/holdout/exam_retention_check_holdout.csv",
+  "col": "diff_lo",
+  "where": [
+   [
+    "variant",
+    "learned"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.113"
+ },
+ {
+  "used_in": "table:exam:3:1",
+  "file": "results/v2/holdout/exam_retention_check_holdout.csv",
+  "col": "diff_hi",
+  "where": [
+   [
+    "variant",
+    "learned"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.078"
+ },
+ {
+  "used_in": "table:exam:4:1",
+  "file": "results/v3/planner/exam_check_val.csv",
+  "col": "v3_delta_rho",
+  "where": [],
+  "style": "+3",
+  "text": "-0.008"
+ },
+ {
+  "used_in": "table:exam:4:2",
+  "file": "results/v3/planner/exam_check_val.csv",
+  "col": "improvement",
+  "where": [],
+  "style": "+3",
+  "text": "+0.089"
+ },
+ {
+  "used_in": "table:exam:4:2",
+  "file": "results/v3/planner/exam_check_val.csv",
+  "col": "ci_lo",
+  "where": [],
+  "style": "+3",
+  "text": "+0.048"
+ },
+ {
+  "used_in": "table:exam:4:2",
+  "file": "results/v3/planner/exam_check_val.csv",
+  "col": "ci_hi",
+  "where": [],
+  "style": "+3",
+  "text": "+0.134"
+ },
+ {
+  "used_in": "table:exam:5:1",
+  "file": "results/v3/holdout/exam_check_CCC.csv",
+  "col": "v3_delta_rho",
+  "where": [],
+  "style": "+3",
+  "text": "-0.026"
+ },
+ {
+  "used_in": "table:exam:5:2",
+  "file": "results/v3/holdout/exam_check_CCC.csv",
+  "col": "improvement",
+  "where": [],
+  "style": "+3",
+  "text": "+0.070"
+ },
+ {
+  "used_in": "table:exam:5:2",
+  "file": "results/v3/holdout/exam_check_CCC.csv",
+  "col": "ci_lo",
+  "where": [],
+  "style": "+3",
+  "text": "+0.052"
+ },
+ {
+  "used_in": "table:exam:5:2",
+  "file": "results/v3/holdout/exam_check_CCC.csv",
+  "col": "ci_hi",
+  "where": [],
+  "style": "+3",
+  "text": "+0.088"
+ },
+ {
+  "used_in": "table:exam:6:1",
+  "file": "results/v3/posthoc_2014J/exam_check_DDD_2014J.csv",
+  "col": "v3_delta_rho",
+  "where": [],
+  "style": "+3",
+  "text": "-0.012"
+ },
+ {
+  "used_in": "table:exam:6:2",
+  "file": "results/v3/posthoc_2014J/exam_check_DDD_2014J.csv",
+  "col": "improvement",
+  "where": [],
+  "style": "+3",
+  "text": "+0.076"
+ },
+ {
+  "used_in": "table:exam:6:2",
+  "file": "results/v3/posthoc_2014J/exam_check_DDD_2014J.csv",
+  "col": "ci_lo",
+  "where": [],
+  "style": "+3",
+  "text": "+0.042"
+ },
+ {
+  "used_in": "table:exam:6:2",
+  "file": "results/v3/posthoc_2014J/exam_check_DDD_2014J.csv",
+  "col": "ci_hi",
+  "where": [],
+  "style": "+3",
+  "text": "+0.110"
+ },
+ {
+  "used_in": "table:variants:0:1",
+  "file": "results/v3/variant_comparison_val.csv",
+  "col": "val_logloss",
+  "where": [
+   [
+    "variant",
+    "V0"
+   ]
+  ],
+  "style": "4",
+  "text": "0.1613"
+ },
+ {
+  "used_in": "table:variants:0:2",
+  "file": "results/v3/variant_comparison_val.csv",
+  "col": "val_within_course_auc",
+  "where": [
+   [
+    "variant",
+    "V0"
+   ]
+  ],
+  "style": "3",
+  "text": "0.898"
+ },
+ {
+  "used_in": "table:variants:0:3",
+  "file": "results/v3/variant_comparison_val.csv",
+  "col": "exam_delta_rho",
+  "where": [
+   [
+    "variant",
+    "V0"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.097"
+ },
+ {
+  "used_in": "table:variants:1:1",
+  "file": "results/v3/variant_comparison_val.csv",
+  "col": "val_logloss",
+  "where": [
+   [
+    "variant",
+    "V1"
+   ]
+  ],
+  "style": "4",
+  "text": "0.1616"
+ },
+ {
+  "used_in": "table:variants:1:2",
+  "file": "results/v3/variant_comparison_val.csv",
+  "col": "val_within_course_auc",
+  "where": [
+   [
+    "variant",
+    "V1"
+   ]
+  ],
+  "style": "3",
+  "text": "0.898"
+ },
+ {
+  "used_in": "table:variants:1:3",
+  "file": "results/v3/variant_comparison_val.csv",
+  "col": "exam_delta_rho",
+  "where": [
+   [
+    "variant",
+    "V1"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.041"
+ },
+ {
+  "used_in": "table:variants:2:1",
+  "file": "results/v3/variant_comparison_val.csv",
+  "col": "val_logloss",
+  "where": [
+   [
+    "variant",
+    "V2"
+   ]
+  ],
+  "style": "4",
+  "text": "0.1578"
+ },
+ {
+  "used_in": "table:variants:2:2",
+  "file": "results/v3/variant_comparison_val.csv",
+  "col": "val_within_course_auc",
+  "where": [
+   [
+    "variant",
+    "V2"
+   ]
+  ],
+  "style": "3",
+  "text": "0.903"
+ },
+ {
+  "used_in": "table:variants:2:3",
+  "file": "results/v3/variant_comparison_val.csv",
+  "col": "exam_delta_rho",
+  "where": [
+   [
+    "variant",
+    "V2"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.014"
+ },
+ {
+  "used_in": "table:variants:3:1",
+  "file": "results/v3/variant_comparison_val.csv",
+  "col": "val_logloss",
+  "where": [
+   [
+    "variant",
+    "V3"
+   ]
+  ],
+  "style": "4",
+  "text": "0.1580"
+ },
+ {
+  "used_in": "table:variants:3:2",
+  "file": "results/v3/variant_comparison_val.csv",
+  "col": "val_within_course_auc",
+  "where": [
+   [
+    "variant",
+    "V3"
+   ]
+  ],
+  "style": "3",
+  "text": "0.902"
+ },
+ {
+  "used_in": "table:variants:3:3",
+  "file": "results/v3/variant_comparison_val.csv",
+  "col": "exam_delta_rho",
+  "where": [
+   [
+    "variant",
+    "V3"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.008"
+ },
+ {
+  "used_in": "table:variants:4:1",
+  "file": "results/v3/variant_comparison_val.csv",
+  "col": "val_logloss",
+  "where": [
+   [
+    "variant",
+    "V4"
+   ]
+  ],
+  "style": "4",
+  "text": "0.1623"
+ },
+ {
+  "used_in": "table:variants:4:2",
+  "file": "results/v3/variant_comparison_val.csv",
+  "col": "val_within_course_auc",
+  "where": [
+   [
+    "variant",
+    "V4"
+   ]
+  ],
+  "style": "3",
+  "text": "0.885"
+ },
+ {
+  "used_in": "table:variants:4:3",
+  "file": "results/v3/variant_comparison_val.csv",
+  "col": "exam_delta_rho",
+  "where": [
+   [
+    "variant",
+    "V4"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.168"
+ },
+ {
+  "used_in": "table:planner:0:1",
+  "file": "results/v3/planner/observational_check_val.csv",
+  "col": "n_students",
+  "where": [
+   [
+    "term",
+    "share_revision_on_flagged"
+   ]
+  ],
+  "style": "int",
+  "text": "472"
+ },
+ {
+  "used_in": "table:planner:0:2",
+  "file": "results/v3/planner/observational_check_val.csv",
+  "col": "coef",
+  "where": [
+   [
+    "term",
+    "share_revision_on_flagged"
+   ]
+  ],
+  "style": "1",
+  "text": "-21.5"
+ },
+ {
+  "used_in": "table:planner:0:2",
+  "file": "results/v3/planner/observational_check_val.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "term",
+    "share_revision_on_flagged"
+   ]
+  ],
+  "style": "1",
+  "text": "-37.5"
+ },
+ {
+  "used_in": "table:planner:0:2",
+  "file": "results/v3/planner/observational_check_val.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "term",
+    "share_revision_on_flagged"
+   ]
+  ],
+  "style": "1",
+  "text": "-7.1"
+ },
+ {
+  "used_in": "table:planner:1:1",
+  "file": "results/v3/holdout/observational_check_CCC.csv",
+  "col": "n_students",
+  "where": [
+   [
+    "term",
+    "share_revision_on_flagged"
+   ]
+  ],
+  "style": "int",
+  "text": "823"
+ },
+ {
+  "used_in": "table:planner:1:2",
+  "file": "results/v3/holdout/observational_check_CCC.csv",
+  "col": "coef",
+  "where": [
+   [
+    "term",
+    "share_revision_on_flagged"
+   ]
+  ],
+  "style": "1",
+  "text": "-22.5"
+ },
+ {
+  "used_in": "table:planner:1:2",
+  "file": "results/v3/holdout/observational_check_CCC.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "term",
+    "share_revision_on_flagged"
+   ]
+  ],
+  "style": "1",
+  "text": "-28.4"
+ },
+ {
+  "used_in": "table:planner:1:2",
+  "file": "results/v3/holdout/observational_check_CCC.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "term",
+    "share_revision_on_flagged"
+   ]
+  ],
+  "style": "1",
+  "text": "-16.6"
+ },
+ {
+  "used_in": "table:planner:2:1",
+  "file": "results/v3/posthoc_2014J/observational_check_DDD_2014J.csv",
+  "col": "n_students",
+  "where": [
+   [
+    "term",
+    "share_revision_on_flagged"
+   ]
+  ],
+  "style": "int",
+  "text": "865"
+ },
+ {
+  "used_in": "table:planner:2:2",
+  "file": "results/v3/posthoc_2014J/observational_check_DDD_2014J.csv",
+  "col": "coef",
+  "where": [
+   [
+    "term",
+    "share_revision_on_flagged"
+   ]
+  ],
+  "style": "1",
+  "text": "6.5"
+ },
+ {
+  "used_in": "table:planner:2:2",
+  "file": "results/v3/posthoc_2014J/observational_check_DDD_2014J.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "term",
+    "share_revision_on_flagged"
+   ]
+  ],
+  "style": "1",
+  "text": "-7.8"
+ },
+ {
+  "used_in": "table:planner:2:2",
+  "file": "results/v3/posthoc_2014J/observational_check_DDD_2014J.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "term",
+    "share_revision_on_flagged"
+   ]
+  ],
+  "style": "1",
+  "text": "20.4"
+ },
+ {
+  "used_in": "table:interest:0:1",
+  "file": "results/tables/coefficients.csv",
+  "col": "estimate",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ],
+   [
+    "param",
+    "phi_I"
+   ]
+  ],
+  "style": "+3",
+  "text": "+0.566"
+ },
+ {
+  "used_in": "table:interest:0:1",
+  "file": "results/tables/coefficients.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ],
+   [
+    "param",
+    "phi_I"
+   ]
+  ],
+  "style": "+3",
+  "text": "+0.058"
+ },
+ {
+  "used_in": "table:interest:0:1",
+  "file": "results/tables/coefficients.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ],
+   [
+    "param",
+    "phi_I"
+   ]
+  ],
+  "style": "+3",
+  "text": "+0.966"
+ },
+ {
+  "used_in": "table:interest:1:1",
+  "file": "results/tables/coefficients.csv",
+  "col": "estimate",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ],
+   [
+    "param",
+    "theta_I"
+   ]
+  ],
+  "style": "+3",
+  "text": "+0.144"
+ },
+ {
+  "used_in": "table:interest:1:1",
+  "file": "results/tables/coefficients.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ],
+   [
+    "param",
+    "theta_I"
+   ]
+  ],
+  "style": "+3",
+  "text": "+0.059"
+ },
+ {
+  "used_in": "table:interest:1:1",
+  "file": "results/tables/coefficients.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ],
+   [
+    "param",
+    "theta_I"
+   ]
+  ],
+  "style": "+3",
+  "text": "+0.237"
+ },
+ {
+  "used_in": "table:interest:2:1",
+  "file": "results/tables/coefficients.csv",
+  "col": "estimate",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ],
+   [
+    "param",
+    "theta_Ic"
+   ]
+  ],
+  "style": "+3",
+  "text": "+0.035"
+ },
+ {
+  "used_in": "table:interest:2:1",
+  "file": "results/tables/coefficients.csv",
+  "col": "ci_lo",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ],
+   [
+    "param",
+    "theta_Ic"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.013"
+ },
+ {
+  "used_in": "table:interest:2:1",
+  "file": "results/tables/coefficients.csv",
+  "col": "ci_hi",
+  "where": [
+   [
+    "model",
+    "learnedI"
+   ],
+   [
+    "param",
+    "theta_Ic"
+   ]
+  ],
+  "style": "+3",
+  "text": "+0.098"
+ },
+ {
+  "used_in": "table:leak:0:1",
+  "file": "report/audit/label_in_ability.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "DDD"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "52%"
+ },
+ {
+  "used_in": "table:leak:0:2",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "DDD"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "66%"
+ },
+ {
+  "used_in": "table:leak:0:3",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "auc_of_stored_ability_alone",
+  "where": [
+   [
+    "module",
+    "DDD"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "3",
+  "text": "0.875"
+ },
+ {
+  "used_in": "table:leak:1:1",
+  "file": "report/audit/label_in_ability.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "FFF"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "61%"
+ },
+ {
+  "used_in": "table:leak:1:2",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "FFF"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "70%"
+ },
+ {
+  "used_in": "table:leak:1:3",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "auc_of_stored_ability_alone",
+  "where": [
+   [
+    "module",
+    "FFF"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "3",
+  "text": "0.920"
+ },
+ {
+  "used_in": "table:leak:2:1",
+  "file": "report/audit/label_in_ability.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "AAA"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "35%"
+ },
+ {
+  "used_in": "table:leak:2:2",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "AAA"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "39%"
+ },
+ {
+  "used_in": "table:leak:2:3",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "auc_of_stored_ability_alone",
+  "where": [
+   [
+    "module",
+    "AAA"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "3",
+  "text": "0.700"
+ },
+ {
+  "used_in": "table:leak:3:1",
+  "file": "report/audit/label_in_ability.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "BBB"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "68%"
+ },
+ {
+  "used_in": "table:leak:3:2",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "BBB"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "84%"
+ },
+ {
+  "used_in": "table:leak:3:3",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "auc_of_stored_ability_alone",
+  "where": [
+   [
+    "module",
+    "BBB"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "3",
+  "text": "0.988"
+ },
+ {
+  "used_in": "table:leak:4:1",
+  "file": "report/audit/label_in_ability.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "CCC"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "18%"
+ },
+ {
+  "used_in": "table:leak:4:2",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "CCC"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "0%"
+ },
+ {
+  "used_in": "table:leak:4:3",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "auc_of_stored_ability_alone",
+  "where": [
+   [
+    "module",
+    "CCC"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "3",
+  "text": "0.510"
+ },
+ {
+  "used_in": "table:leak:5:1",
+  "file": "report/audit/label_in_ability.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "EEE"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "57%"
+ },
+ {
+  "used_in": "table:leak:5:2",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "EEE"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "65%"
+ },
+ {
+  "used_in": "table:leak:5:3",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "auc_of_stored_ability_alone",
+  "where": [
+   [
+    "module",
+    "EEE"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "3",
+  "text": "0.865"
+ },
+ {
+  "used_in": "table:leak:6:1",
+  "file": "report/audit/label_in_ability.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "GGG"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "70%"
+ },
+ {
+  "used_in": "table:leak:6:2",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "GGG"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "78%"
+ },
+ {
+  "used_in": "table:leak:6:3",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "auc_of_stored_ability_alone",
+  "where": [
+   [
+    "module",
+    "GGG"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "3",
+  "text": "0.928"
+ },
+ {
+  "used_in": "table:examday:0:1",
+  "file": "report/audit/exam_day.csv",
+  "col": "day_used",
+  "where": [
+   [
+    "module",
+    "DDD"
+   ],
+   [
+    "presentation",
+    "2014B"
+   ]
+  ],
+  "style": "int",
+  "text": "241"
+ },
+ {
+  "used_in": "table:examday:0:2",
+  "file": "report/audit/exam_day.csv",
+  "col": "median_day_sat",
+  "where": [
+   [
+    "module",
+    "DDD"
+   ],
+   [
+    "presentation",
+    "2014B"
+   ]
+  ],
+  "style": "int",
+  "text": "234"
+ },
+ {
+  "used_in": "table:examday:0:3",
+  "file": "report/audit/exam_day.csv",
+  "col": "planner_points_after_median_exam",
+  "where": [
+   [
+    "module",
+    "DDD"
+   ],
+   [
+    "presentation",
+    "2014B"
+   ]
+  ],
+  "style": "int",
+  "text": "1"
+ },
+ {
+  "used_in": "table:examday:1:1",
+  "file": "report/audit/exam_day.csv",
+  "col": "day_used",
+  "where": [
+   [
+    "module",
+    "DDD"
+   ],
+   [
+    "presentation",
+    "2014J"
+   ]
+  ],
+  "style": "int",
+  "text": "262"
+ },
+ {
+  "used_in": "table:examday:1:2",
+  "file": "report/audit/exam_day.csv",
+  "col": "median_day_sat",
+  "where": [
+   [
+    "module",
+    "DDD"
+   ],
+   [
+    "presentation",
+    "2014J"
+   ]
+  ],
+  "style": "int",
+  "text": "243"
+ },
+ {
+  "used_in": "table:examday:1:3",
+  "file": "report/audit/exam_day.csv",
+  "col": "planner_points_after_median_exam",
+  "where": [
+   [
+    "module",
+    "DDD"
+   ],
+   [
+    "presentation",
+    "2014J"
+   ]
+  ],
+  "style": "int",
+  "text": "2"
+ },
+ {
+  "used_in": "table:examday:2:1",
+  "file": "report/audit/exam_day.csv",
+  "col": "day_used",
+  "where": [
+   [
+    "module",
+    "CCC"
+   ],
+   [
+    "presentation",
+    "2014B"
+   ]
+  ],
+  "style": "int",
+  "text": "241"
+ },
+ {
+  "used_in": "table:examday:2:2",
+  "file": "report/audit/exam_day.csv",
+  "col": "median_day_sat",
+  "where": [
+   [
+    "module",
+    "CCC"
+   ],
+   [
+    "presentation",
+    "2014B"
+   ]
+  ],
+  "style": "int",
+  "text": "230"
+ },
+ {
+  "used_in": "table:examday:2:3",
+  "file": "report/audit/exam_day.csv",
+  "col": "planner_points_after_median_exam",
+  "where": [
+   [
+    "module",
+    "CCC"
+   ],
+   [
+    "presentation",
+    "2014B"
+   ]
+  ],
+  "style": "int",
+  "text": "1"
+ },
+ {
+  "used_in": "table:examday:3:1",
+  "file": "report/audit/exam_day.csv",
+  "col": "day_used",
+  "where": [
+   [
+    "module",
+    "CCC"
+   ],
+   [
+    "presentation",
+    "2014J"
+   ]
+  ],
+  "style": "int",
+  "text": "269"
+ },
+ {
+  "used_in": "table:examday:3:2",
+  "file": "report/audit/exam_day.csv",
+  "col": "median_day_sat",
+  "where": [
+   [
+    "module",
+    "CCC"
+   ],
+   [
+    "presentation",
+    "2014J"
+   ]
+  ],
+  "style": "int",
+  "text": "244"
+ },
+ {
+  "used_in": "table:examday:3:3",
+  "file": "report/audit/exam_day.csv",
+  "col": "planner_points_after_median_exam",
+  "where": [
+   [
+    "module",
+    "CCC"
+   ],
+   [
+    "presentation",
+    "2014J"
+   ]
+  ],
+  "style": "int",
+  "text": "3"
+ },
+ {
+  "used_in": "macro:NPresentations",
+  "file": "results/tables/audit_raw_tables.json",
+  "col": "courses/rows",
+  "where": [],
+  "style": "int",
+  "text": "22"
+ },
+ {
+  "used_in": "macro:NRegistrations",
+  "file": "results/tables/audit_raw_tables.json",
+  "col": "studentInfo/rows",
+  "where": [],
+  "style": "int",
+  "text": "32,593"
+ },
+ {
+  "used_in": "macro:NAssessRecords",
+  "file": "results/tables/audit_raw_tables.json",
+  "col": "studentAssessment/rows",
+  "where": [],
+  "style": "int",
+  "text": "173,912"
+ },
+ {
+  "used_in": "macro:PassRate",
+  "file": "results/tables/audit_cleaning_log.json",
+  "col": "interactions/pass_rate_submitted",
+  "where": [],
+  "style": "pct0",
+  "text": "94%"
+ },
+ {
+  "used_in": "macro:SubmitRate",
+  "file": "results/tables/audit_cleaning_log.json",
+  "col": "interactions/share_submitted",
+  "where": [],
+  "style": "pct0",
+  "text": "80%"
+ },
+ {
+  "used_in": "macro:TestStudents",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "n_students",
+  "where": [
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "int",
+  "text": "3,064"
+ },
+ {
+  "used_in": "macro:TestRows",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "n_rows",
+  "where": [
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "int",
+  "text": "14,976"
+ },
+ {
+  "used_in": "macro:HoldRows",
+  "file": "results/v2/holdout/model_metrics_holdout.csv",
+  "col": "n_rows",
+  "where": [
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "int",
+  "text": "24,122"
+ },
+ {
+  "used_in": "macro:HoldStudents",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "n_students",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "int",
+  "text": "4,526"
+ },
+ {
+  "used_in": "macro:WeekMapDDD",
+  "file": "results/tables/topic_map_method_share.csv",
+  "col": "share_sites",
+  "where": [
+   [
+    "code_module",
+    "DDD"
+   ],
+   [
+    "map_method",
+    "week_from"
+   ]
+  ],
+  "style": "pct1",
+  "text": "0.1%"
+ },
+ {
+  "used_in": "macro:WeekMapFFF",
+  "file": "results/tables/topic_map_method_share.csv",
+  "col": "share_sites",
+  "where": [
+   [
+    "code_module",
+    "FFF"
+   ],
+   [
+    "map_method",
+    "week_from"
+   ]
+  ],
+  "style": "pct0",
+  "text": "42%"
+ },
+ {
+  "used_in": "macro:InterestActivityR",
+  "file": "results/tables/interest_validity.csv",
+  "col": "pearson_r",
+  "where": [
+   [
+    "check",
+    "I vs student total clicks (all resources, log1p)"
+   ]
+  ],
+  "style": "2",
+  "text": "0.03"
+ },
+ {
+  "used_in": "macro:InterestSplitHalf",
+  "file": "results/tables/interest_validity.csv",
+  "col": "pearson_r",
+  "where": [
+   [
+    "check",
+    "split-half: I(odd days) vs I(even days), both halves active"
+   ]
+  ],
+  "style": "2",
+  "text": "0.49"
+ },
+ {
+  "used_in": "macro:FixedS",
+  "file": "results/tables/coefficients.csv",
+  "col": "S",
+  "where": [
+   [
+    "model",
+    "fixed"
+   ],
+   [
+    "param",
+    "theta_a"
+   ]
+  ],
+  "style": "int",
+  "text": "120"
+ },
+ {
+  "used_in": "macro:AucTopicOne",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "topic_difficulty"
+   ]
+  ],
+  "style": "3",
+  "text": "0.848"
+ },
+ {
+  "used_in": "macro:AucNone",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "none"
+   ]
+  ],
+  "style": "3",
+  "text": "0.900"
+ },
+ {
+  "used_in": "macro:AucLearned",
+  "file": "results/tables/model_metrics_test.csv",
+  "col": "AUC",
+  "where": [
+   [
+    "model",
+    "learned"
+   ]
+  ],
+  "style": "3",
+  "text": "0.902"
+ },
+ {
+  "used_in": "macro:AucGain",
+  "file": "results/tables/model_paired_diffs_test.csv",
+  "col": "AUC_diff",
+  "where": [
+   [
+    "model_x",
+    "learned"
+   ],
+   [
+    "model_y",
+    "none"
+   ]
+  ],
+  "style": "+4",
+  "text": "+0.0018"
+ },
+ {
+  "used_in": "macro:AucGainLo",
+  "file": "results/tables/model_paired_diffs_test.csv",
+  "col": "AUC_diff_lo",
+  "where": [
+   [
+    "model_x",
+    "learned"
+   ],
+   [
+    "model_y",
+    "none"
+   ]
+  ],
+  "style": "+4",
+  "text": "+0.0002"
+ },
+ {
+  "used_in": "macro:AucGainHi",
+  "file": "results/tables/model_paired_diffs_test.csv",
+  "col": "AUC_diff_hi",
+  "where": [
+   [
+    "model_x",
+    "learned"
+   ],
+   [
+    "model_y",
+    "none"
+   ]
+  ],
+  "style": "+4",
+  "text": "+0.0037"
+ },
+ {
+  "used_in": "macro:HoldGain",
+  "file": "results/v2/holdout/model_paired_diffs_holdout.csv",
+  "col": "AUC_diff",
+  "where": [
+   [
+    "model_x",
+    "learned"
+   ],
+   [
+    "model_y",
+    "none"
+   ]
+  ],
+  "style": "+4",
+  "text": "-0.0004"
+ },
+ {
+  "used_in": "macro:HoldGainLo",
+  "file": "results/v2/holdout/model_paired_diffs_holdout.csv",
+  "col": "AUC_diff_lo",
+  "where": [
+   [
+    "model_x",
+    "learned"
+   ],
+   [
+    "model_y",
+    "none"
+   ]
+  ],
+  "style": "+4",
+  "text": "-0.0011"
+ },
+ {
+  "used_in": "macro:HoldGainHi",
+  "file": "results/v2/holdout/model_paired_diffs_holdout.csv",
+  "col": "AUC_diff_hi",
+  "where": [
+   [
+    "model_x",
+    "learned"
+   ],
+   [
+    "model_y",
+    "none"
+   ]
+  ],
+  "style": "+4",
+  "text": "+0.0002"
+ },
+ {
+  "used_in": "macro:HoldDasGap",
+  "file": "results/v2/holdout/model_paired_diffs_holdout.csv",
+  "col": "AUC_diff",
+  "where": [
+   [
+    "model_x",
+    "learned"
+   ],
+   [
+    "model_y",
+    "das3h"
+   ]
+  ],
+  "style": "abs3",
+  "text": "0.011"
+ },
+ {
+  "used_in": "macro:RankRandom",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A0"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.739"
+ },
+ {
+  "used_in": "macro:RankPop",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A1"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.946"
+ },
+ {
+  "used_in": "macro:RankMastery",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A2"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.653"
+ },
+ {
+  "used_in": "macro:RankThree",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A3"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.828"
+ },
+ {
+  "used_in": "macro:RankFive",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.840"
+ },
+ {
+  "used_in": "macro:RankThreeB",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A3"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.553"
+ },
+ {
+  "used_in": "macro:RankFiveB",
+  "file": "results/tables/ranking_metrics_test.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "A5"
+   ],
+   [
+    "relevance",
+    "B"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.805"
+ },
+ {
+  "used_in": "macro:SensSeventy",
+  "file": "results/tables/sensitivity.csv",
+  "col": "diff",
+  "where": [
+   [
+    "sensitivity",
+    "pass70"
+   ],
+   [
+    "comparison",
+    "A5 vs A3"
+   ]
+  ],
+  "style": "+3",
+  "text": "+0.013"
+ },
+ {
+  "used_in": "macro:SensNonsub",
+  "file": "results/tables/sensitivity.csv",
+  "col": "diff",
+  "where": [
+   [
+    "sensitivity",
+    "nonsub_fail"
+   ],
+   [
+    "comparison",
+    "A5 vs A3"
+   ]
+  ],
+  "style": "+3",
+  "text": "+0.020"
+ },
+ {
+  "used_in": "macro:SensData",
+  "file": "results/tables/sensitivity.csv",
+  "col": "diff",
+  "where": [
+   [
+    "sensitivity",
+    "pass70"
+   ],
+   [
+    "comparison",
+    "A5_data vs A3_data"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.091"
+ },
+ {
+  "used_in": "macro:HoldPop",
+  "file": "results/v2/holdout/ranking_metrics_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A1"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ],
+   [
+    "module",
+    "pooled"
+   ]
+  ],
+  "style": "3",
+  "text": "0.893"
+ },
+ {
+  "used_in": "macro:HoldForget",
+  "file": "results/v2/holdout/wilcoxon_holm_holdout.csv",
+  "col": "mean_diff",
+  "where": [
+   [
+    "comparison",
+    "forgetting: A5 vs A3 (v2)"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "+3",
+  "text": "+0.009"
+ },
+ {
+  "used_in": "macro:HoldForgetB",
+  "file": "results/v2/holdout/wilcoxon_holm_holdout.csv",
+  "col": "mean_diff",
+  "where": [
+   [
+    "comparison",
+    "forgetting: A5 vs A3 (v2)"
+   ],
+   [
+    "metric",
+    "NDCG@5[B]"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.004"
+ },
+ {
+  "used_in": "macro:HoldInterest",
+  "file": "results/v2/holdout/wilcoxon_holm_holdout.csv",
+  "col": "mean_diff",
+  "where": [
+   [
+    "comparison",
+    "interest: A9 vs A8 (v2)"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "+3",
+  "text": "+0.014"
+ },
+ {
+  "used_in": "macro:HoldPopGap",
+  "file": "results/v2/holdout/wilcoxon_holm_holdout.csv",
+  "col": "mean_diff",
+  "where": [
+   [
+    "comparison",
+    "popularity term: A8 vs A1 (v2)"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "abs3",
+  "text": "0.165"
+ },
+ {
+  "used_in": "macro:PostForget",
+  "file": "results/v2/posthoc_2014J/wilcoxon_holm.csv",
+  "col": "mean_diff",
+  "where": [
+   [
+    "comparison",
+    "forgetting: A5 vs A3 (v2)"
+   ],
+   [
+    "metric",
+    "NDCG@5[AB]"
+   ]
+  ],
+  "style": "+3",
+  "text": "0.000"
+ },
+ {
+  "used_in": "macro:ExamGap",
+  "file": "results/tables/exam_retention_check.csv",
+  "col": "diff_spearman_K_minus_M",
+  "where": [
+   [
+    "variant",
+    "learned"
+   ]
+  ],
+  "style": "+3",
+  "text": "-0.088"
+ },
+ {
+  "used_in": "macro:DeltaTwo",
+  "file": "results/v2/exam_check/delta_and_revision_at_exam_val.csv",
+  "col": "delta_median",
+  "where": [
+   [
+    "topic",
+    "2"
+   ]
+  ],
+  "style": "int",
+  "text": "188"
+ },
+ {
+  "used_in": "macro:DeltaFive",
+  "file": "results/v2/exam_check/delta_and_revision_at_exam_val.csv",
+  "col": "delta_median",
+  "where": [
+   [
+    "topic",
+    "5"
+   ]
+  ],
+  "style": "int",
+  "text": "83"
+ },
+ {
+  "used_in": "macro:ResetFive",
+  "file": "results/v2/exam_check/delta_and_revision_at_exam_val.csv",
+  "col": "share_reset_in_revision_period",
+  "where": [
+   [
+    "topic",
+    "5"
+   ]
+  ],
+  "style": "pct0",
+  "text": "20%"
+ },
+ {
+  "used_in": "macro:ResetThree",
+  "file": "results/v2/exam_check/delta_and_revision_at_exam_val.csv",
+  "col": "share_reset_in_revision_period",
+  "where": [
+   [
+    "topic",
+    "3"
+   ]
+  ],
+  "style": "pct0",
+  "text": "34%"
+ },
+ {
+  "used_in": "macro:ResetSix",
+  "file": "results/v2/exam_check/delta_and_revision_at_exam_val.csv",
+  "col": "share_reset_in_revision_period",
+  "where": [
+   [
+    "topic",
+    "6"
+   ]
+  ],
+  "style": "pct0",
+  "text": "90%"
+ },
+ {
+  "used_in": "macro:NavLow",
+  "file": "results/v3/resource_classes_summary.csv",
+  "col": "share_clicks",
+  "where": [
+   [
+    "code_module",
+    "CCC"
+   ],
+   [
+    "resource_class",
+    "NAVIGATION"
+   ]
+  ],
+  "style": "pct0",
+  "text": "32%"
+ },
+ {
+  "used_in": "macro:NavHigh",
+  "file": "results/v3/resource_classes_summary.csv",
+  "col": "share_clicks",
+  "where": [
+   [
+    "code_module",
+    "BBB"
+   ],
+   [
+    "resource_class",
+    "NAVIGATION"
+   ]
+  ],
+  "style": "pct0",
+  "text": "61%"
+ },
+ {
+  "used_in": "macro:VisDirectLow",
+  "file": "results/v3/attribution_revision_diagnostics_val.csv",
+  "col": "share_examtakers_with_dose_ge_log1p3",
+  "where": [
+   [
+    "attribution",
+    "direct"
+   ],
+   [
+    "topic",
+    "2"
+   ]
+  ],
+  "style": "pct0",
+  "text": "15%"
+ },
+ {
+  "used_in": "macro:VisDirectHigh",
+  "file": "results/v3/attribution_revision_diagnostics_val.csv",
+  "col": "share_examtakers_with_dose_ge_log1p3",
+  "where": [
+   [
+    "attribution",
+    "direct"
+   ],
+   [
+    "topic",
+    "4"
+   ]
+  ],
+  "style": "pct0",
+  "text": "47%"
+ },
+ {
+  "used_in": "macro:VisSharedLow",
+  "file": "results/v3/attribution_revision_diagnostics_val.csv",
+  "col": "share_examtakers_with_dose_ge_log1p3",
+  "where": [
+   [
+    "attribution",
+    "shared_0.4"
+   ],
+   [
+    "topic",
+    "3"
+   ]
+  ],
+  "style": "pct0",
+  "text": "56%"
+ },
+ {
+  "used_in": "macro:VisSharedHigh",
+  "file": "results/v3/attribution_revision_diagnostics_val.csv",
+  "col": "share_examtakers_with_dose_ge_log1p3",
+  "where": [
+   [
+    "attribution",
+    "shared_0.4"
+   ],
+   [
+    "topic",
+    "2"
+   ]
+  ],
+  "style": "pct0",
+  "text": "59%"
+ },
+ {
+  "used_in": "macro:DecayA",
+  "file": "results/v3/selected_variant.json",
+  "col": "params/a",
+  "where": [],
+  "style": "2",
+  "text": "0.60"
+ },
+ {
+  "used_in": "macro:DecayC",
+  "file": "results/v3/selected_variant.json",
+  "col": "params/c",
+  "where": [],
+  "style": "3",
+  "text": "0.217"
+ },
+ {
+  "used_in": "macro:DoseSub",
+  "file": "results/v3/selected_variant.json",
+  "col": "params/x_sub",
+  "where": [],
+  "style": "int",
+  "text": "10"
+ },
+ {
+  "used_in": "macro:BmActivation",
+  "file": "results/v3/holdout/coefficients_by_module.json",
+  "col": "CCC/bm",
+  "where": [],
+  "style": "3",
+  "text": "0.084"
+ },
+ {
+  "used_in": "macro:BmMastery",
+  "file": "results/v3/holdout/coefficients_by_module.json",
+  "col": "CCC/bM",
+  "where": [],
+  "style": "2",
+  "text": "2.25"
+ },
+ {
+  "used_in": "macro:ScaleRaw",
+  "file": "results/v3/knowledge_scale_selection_val.csv",
+  "col": "A5_val_NDCG@5",
+  "where": [
+   [
+    "scale",
+    "raw"
+   ]
+  ],
+  "style": "3",
+  "text": "0.726"
+ },
+ {
+  "used_in": "macro:ScaleScore",
+  "file": "results/v3/knowledge_scale_selection_val.csv",
+  "col": "A5_val_NDCG@5",
+  "where": [
+   [
+    "scale",
+    "score"
+   ]
+  ],
+  "style": "3",
+  "text": "0.802"
+ },
+ {
+  "used_in": "macro:ValVTwo",
+  "file": "results/v3/recommender_val.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.778"
+ },
+ {
+  "used_in": "macro:CritAThree",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "auc_v3",
+  "where": [],
+  "style": "3",
+  "text": "0.848"
+ },
+ {
+  "used_in": "macro:CritATwo",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "auc_v2",
+  "where": [],
+  "style": "3",
+  "text": "0.841"
+ },
+ {
+  "used_in": "macro:CritADiff",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "diff",
+  "where": [],
+  "style": "+3",
+  "text": "+0.007"
+ },
+ {
+  "used_in": "macro:CritALo",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "diff_lo",
+  "where": [],
+  "style": "+3",
+  "text": "+0.003"
+ },
+ {
+  "used_in": "macro:CritAHi",
+  "file": "results/v3/holdout/model_metrics_holdout.csv",
+  "col": "diff_hi",
+  "where": [],
+  "style": "+3",
+  "text": "+0.011"
+ },
+ {
+  "used_in": "macro:CritBThree",
+  "file": "results/v3/holdout/exam_check_CCC.csv",
+  "col": "v3_delta_rho",
+  "where": [],
+  "style": "+3",
+  "text": "-0.026"
+ },
+ {
+  "used_in": "macro:CritBTwo",
+  "file": "results/v3/holdout/exam_check_CCC.csv",
+  "col": "v2_delta_rho_recomputed",
+  "where": [],
+  "style": "+3",
+  "text": "-0.096"
+ },
+ {
+  "used_in": "macro:CritBDiff",
+  "file": "results/v3/holdout/exam_check_CCC.csv",
+  "col": "improvement",
+  "where": [],
+  "style": "+3",
+  "text": "+0.070"
+ },
+ {
+  "used_in": "macro:CritBLo",
+  "file": "results/v3/holdout/exam_check_CCC.csv",
+  "col": "ci_lo",
+  "where": [],
+  "style": "+3",
+  "text": "+0.052"
+ },
+ {
+  "used_in": "macro:CritBHi",
+  "file": "results/v3/holdout/exam_check_CCC.csv",
+  "col": "ci_hi",
+  "where": [],
+  "style": "+3",
+  "text": "+0.088"
+ },
+ {
+  "used_in": "macro:CritCThree",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v3:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.654"
+ },
+ {
+  "used_in": "macro:CritCTwo",
+  "file": "results/v3/holdout/recommender_holdout.csv",
+  "col": "value",
+  "where": [
+   [
+    "config",
+    "v2:A5"
+   ],
+   [
+    "relevance",
+    "AB"
+   ],
+   [
+    "metric",
+    "NDCG@5"
+   ]
+  ],
+  "style": "3",
+  "text": "0.718"
+ },
+ {
+  "used_in": "macro:LeakMain",
+  "file": "report/audit/label_in_ability.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "DDDFFF (all)"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "57%"
+ },
+ {
+  "used_in": "macro:LeakLow",
+  "file": "report/audit/label_in_ability.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "CCC"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "18%"
+ },
+ {
+  "used_in": "macro:LeakHigh",
+  "file": "report/audit/label_in_ability.csv",
+  "col": "share_label_in_feature",
+  "where": [
+   [
+    "module",
+    "GGG"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "pct0",
+  "text": "70%"
+ },
+ {
+  "used_in": "macro:LeakAucDDD",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "auc_of_stored_ability_alone",
+  "where": [
+   [
+    "module",
+    "DDD"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "3",
+  "text": "0.875"
+ },
+ {
+  "used_in": "macro:LeakAucFFF",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "auc_of_stored_ability_alone",
+  "where": [
+   [
+    "module",
+    "FFF"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "3",
+  "text": "0.920"
+ },
+ {
+  "used_in": "macro:LeakAucCCC",
+  "file": "report/audit/first_topic_ability_auc.csv",
+  "col": "auc_of_stored_ability_alone",
+  "where": [
+   [
+    "module",
+    "CCC"
+   ],
+   [
+    "split",
+    "test"
+   ]
+  ],
+  "style": "3",
+  "text": "0.510"
+ },
+ {
+  "used_in": "macro:LateMin",
+  "file": "report/audit/exam_day.csv",
+  "col": "median_days_late",
+  "where": [
+   [
+    "module",
+    "DDD"
+   ],
+   [
+    "presentation",
+    "2014B"
+   ]
+  ],
+  "style": "int",
+  "text": "7"
+ },
+ {
+  "used_in": "macro:LateMax",
+  "file": "report/audit/exam_day.csv",
+  "col": "median_days_late",
+  "where": [
+   [
+    "module",
+    "CCC"
+   ],
+   [
+    "presentation",
+    "2014J"
+   ]
+  ],
+  "style": "int",
+  "text": "25"
+ },
+ {
+  "used_in": "macro:LateWeeksCCC",
+  "file": "report/audit/exam_day.csv",
+  "col": "planner_points_after_median_exam",
+  "where": [
+   [
+    "module",
+    "CCC"
+   ],
+   [
+    "presentation",
+    "2014J"
+   ]
+  ],
+  "style": "int",
+  "text": "3"
+ },
+ {
+  "used_in": "macro:SitesMain",
+  "file": "report/audit/attribution_revision_clicks.csv",
+  "col": "n_sites_shared_because_of_revision_clicks",
+  "where": [
+   [
+    "course_set",
+    "DDDFFF"
+   ]
+  ],
+  "style": "int",
+  "text": "27"
+ },
+ {
+  "used_in": "macro:SitesCCC",
+  "file": "report/audit/attribution_revision_clicks.csv",
+  "col": "n_sites_shared_because_of_revision_clicks",
+  "where": [
+   [
+    "course_set",
+    "CCC"
+   ]
+  ],
+  "style": "int",
+  "text": "28"
+ },
+ {
+  "used_in": "macro:ScaleGap",
+  "file": "report/audit/scoring_scale.csv",
+  "col": "max_abs_diff_K_exam",
+  "where": [
+   [
+    "recorded_file",
+    "results/v3/holdout/plans_CCC.csv"
+   ],
+   [
+    "scale",
+    "score"
+   ]
+  ],
+  "style": "2",
+  "text": "0.39"
+ }
+]

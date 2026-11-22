@@ -1,0 +1,129 @@
+Number check for report/main.tex (python report/check_numbers.py)
+  traced values re-read from their source file and matched : 461 of 461
+  numbers in generated tables traced                      : 394
+  result numbers in the prose (macro uses)                : 87 (84 distinct)
+  other prose numbers, each justified as not a result     : 37
+  failures                                                : 0
+  values from report/audit/ are read-only audit counts. They are kept outside results/, which is frozen.
+
+RESULT    \AucGain = +0.0018  x1  <- results/tables/model_paired_diffs_test.csv {'model_x': 'learned', 'model_y': 'none'} AUC_diff
+RESULT    \AucGainHi = +0.0037  x1  <- results/tables/model_paired_diffs_test.csv {'model_x': 'learned', 'model_y': 'none'} AUC_diff_hi
+RESULT    \AucGainLo = +0.0002  x1  <- results/tables/model_paired_diffs_test.csv {'model_x': 'learned', 'model_y': 'none'} AUC_diff_lo
+RESULT    \AucLearned = 0.902  x1  <- results/tables/model_metrics_test.csv {'model': 'learned'} AUC
+RESULT    \AucNone = 0.900  x1  <- results/tables/model_metrics_test.csv {'model': 'none'} AUC
+RESULT    \AucTopicOne = 0.848  x1  <- results/tables/model_metrics_test.csv {'model': 'topic_difficulty'} AUC
+RESULT    \BmActivation = 0.084  x1  <- results/v3/holdout/coefficients_by_module.json {} CCC/bm
+RESULT    \BmMastery = 2.25  x1  <- results/v3/holdout/coefficients_by_module.json {} CCC/bM
+RESULT    \CritADiff = +0.007  x1  <- results/v3/holdout/model_metrics_holdout.csv {} diff
+RESULT    \CritAHi = +0.011  x1  <- results/v3/holdout/model_metrics_holdout.csv {} diff_hi
+RESULT    \CritALo = +0.003  x1  <- results/v3/holdout/model_metrics_holdout.csv {} diff_lo
+RESULT    \CritAThree = 0.848  x1  <- results/v3/holdout/model_metrics_holdout.csv {} auc_v3
+RESULT    \CritATwo = 0.841  x1  <- results/v3/holdout/model_metrics_holdout.csv {} auc_v2
+RESULT    \CritBDiff = +0.070  x1  <- results/v3/holdout/exam_check_CCC.csv {} improvement
+RESULT    \CritBHi = +0.088  x1  <- results/v3/holdout/exam_check_CCC.csv {} ci_hi
+RESULT    \CritBLo = +0.052  x1  <- results/v3/holdout/exam_check_CCC.csv {} ci_lo
+RESULT    \CritBThree = -0.026  x1  <- results/v3/holdout/exam_check_CCC.csv {} v3_delta_rho
+RESULT    \CritBTwo = -0.096  x1  <- results/v3/holdout/exam_check_CCC.csv {} v2_delta_rho_recomputed
+RESULT    \CritCThree = 0.654  x1  <- results/v3/holdout/recommender_holdout.csv {'config': 'v3:A5', 'relevance': 'AB', 'metric': 'NDCG@5'} value
+RESULT    \CritCTwo = 0.718  x1  <- results/v3/holdout/recommender_holdout.csv {'config': 'v2:A5', 'relevance': 'AB', 'metric': 'NDCG@5'} value
+RESULT    \DecayA = 0.60  x1  <- results/v3/selected_variant.json {} params/a
+RESULT    \DecayC = 0.217  x1  <- results/v3/selected_variant.json {} params/c
+RESULT    \DeltaFive = 83  x1  <- results/v2/exam_check/delta_and_revision_at_exam_val.csv {'topic': '5'} delta_median
+RESULT    \DeltaTwo = 188  x1  <- results/v2/exam_check/delta_and_revision_at_exam_val.csv {'topic': '2'} delta_median
+RESULT    \DoseSub = 10  x1  <- results/v3/selected_variant.json {} params/x_sub
+RESULT    \ExamGap = -0.088  x1  <- results/tables/exam_retention_check.csv {'variant': 'learned'} diff_spearman_K_minus_M
+RESULT    \FixedS = 120  x1  <- results/tables/coefficients.csv {'model': 'fixed', 'param': 'theta_a'} S
+RESULT    \HoldDasGap = 0.011  x1  <- results/v2/holdout/model_paired_diffs_holdout.csv {'model_x': 'learned', 'model_y': 'das3h'} AUC_diff
+RESULT    \HoldForget = +0.009  x1  <- results/v2/holdout/wilcoxon_holm_holdout.csv {'comparison': 'forgetting: A5 vs A3 (v2)', 'metric': 'NDCG@5[AB]'} mean_diff
+RESULT    \HoldForgetB = -0.004  x1  <- results/v2/holdout/wilcoxon_holm_holdout.csv {'comparison': 'forgetting: A5 vs A3 (v2)', 'metric': 'NDCG@5[B]'} mean_diff
+RESULT    \HoldGain = -0.0004  x1  <- results/v2/holdout/model_paired_diffs_holdout.csv {'model_x': 'learned', 'model_y': 'none'} AUC_diff
+RESULT    \HoldGainHi = +0.0002  x1  <- results/v2/holdout/model_paired_diffs_holdout.csv {'model_x': 'learned', 'model_y': 'none'} AUC_diff_hi
+RESULT    \HoldGainLo = -0.0011  x1  <- results/v2/holdout/model_paired_diffs_holdout.csv {'model_x': 'learned', 'model_y': 'none'} AUC_diff_lo
+RESULT    \HoldInterest = +0.014  x1  <- results/v2/holdout/wilcoxon_holm_holdout.csv {'comparison': 'interest: A9 vs A8 (v2)', 'metric': 'NDCG@5[AB]'} mean_diff
+RESULT    \HoldPop = 0.893  x1  <- results/v2/holdout/ranking_metrics_holdout.csv {'config': 'v2:A1', 'relevance': 'AB', 'metric': 'NDCG@5', 'module': 'pooled'} value
+RESULT    \HoldPopGap = 0.165  x1  <- results/v2/holdout/wilcoxon_holm_holdout.csv {'comparison': 'popularity term: A8 vs A1 (v2)', 'metric': 'NDCG@5[AB]'} mean_diff
+RESULT    \HoldRows = 24,122  x1  <- results/v2/holdout/model_metrics_holdout.csv {'model': 'learned'} n_rows
+RESULT    \HoldStudents = 4,526  x1  <- results/v3/holdout/recommender_holdout.csv {'config': 'v2:A5', 'relevance': 'AB', 'metric': 'NDCG@5'} n_students
+RESULT    \InterestActivityR = 0.03  x1  <- results/tables/interest_validity.csv {'check': 'I vs student total clicks (all resources, log1p)'} pearson_r
+RESULT    \InterestSplitHalf = 0.49  x1  <- results/tables/interest_validity.csv {'check': 'split-half: I(odd days) vs I(even days), both halves active'} pearson_r
+RESULT    \LateMax = 25  x2  <- report/audit/exam_day.csv {'module': 'CCC', 'presentation': '2014J'} median_days_late
+RESULT    \LateMin = 7  x2  <- report/audit/exam_day.csv {'module': 'DDD', 'presentation': '2014B'} median_days_late
+RESULT    \LateWeeksCCC = 3  x1  <- report/audit/exam_day.csv {'module': 'CCC', 'presentation': '2014J'} planner_points_after_median_exam
+RESULT    \LeakAucCCC = 0.510  x1  <- report/audit/first_topic_ability_auc.csv {'module': 'CCC', 'split': 'test'} auc_of_stored_ability_alone
+RESULT    \LeakAucDDD = 0.875  x1  <- report/audit/first_topic_ability_auc.csv {'module': 'DDD', 'split': 'test'} auc_of_stored_ability_alone
+RESULT    \LeakAucFFF = 0.920  x1  <- report/audit/first_topic_ability_auc.csv {'module': 'FFF', 'split': 'test'} auc_of_stored_ability_alone
+RESULT    \LeakHigh = 70%  x1  <- report/audit/label_in_ability.csv {'module': 'GGG', 'split': 'test'} share_label_in_feature
+RESULT    \LeakLow = 18%  x1  <- report/audit/label_in_ability.csv {'module': 'CCC', 'split': 'test'} share_label_in_feature
+RESULT    \LeakMain = 57%  x2  <- report/audit/label_in_ability.csv {'module': 'DDDFFF (all)', 'split': 'test'} share_label_in_feature
+RESULT    \NAssessRecords = 173,912  x1  <- results/tables/audit_raw_tables.json {} studentAssessment/rows
+RESULT    \NPresentations = 22  x1  <- results/tables/audit_raw_tables.json {} courses/rows
+RESULT    \NRegistrations = 32,593  x1  <- results/tables/audit_raw_tables.json {} studentInfo/rows
+RESULT    \NavHigh = 61%  x1  <- results/v3/resource_classes_summary.csv {'code_module': 'BBB', 'resource_class': 'NAVIGATION'} share_clicks
+RESULT    \NavLow = 32%  x1  <- results/v3/resource_classes_summary.csv {'code_module': 'CCC', 'resource_class': 'NAVIGATION'} share_clicks
+RESULT    \PassRate = 94%  x1  <- results/tables/audit_cleaning_log.json {} interactions/pass_rate_submitted
+RESULT    \PostForget = 0.000  x1  <- results/v2/posthoc_2014J/wilcoxon_holm.csv {'comparison': 'forgetting: A5 vs A3 (v2)', 'metric': 'NDCG@5[AB]'} mean_diff
+RESULT    \RankFive = 0.840  x1  <- results/tables/ranking_metrics_test.csv {'config': 'A5', 'relevance': 'AB', 'metric': 'NDCG@5'} value
+RESULT    \RankFiveB = 0.805  x1  <- results/tables/ranking_metrics_test.csv {'config': 'A5', 'relevance': 'B', 'metric': 'NDCG@5'} value
+RESULT    \RankMastery = 0.653  x1  <- results/tables/ranking_metrics_test.csv {'config': 'A2', 'relevance': 'AB', 'metric': 'NDCG@5'} value
+RESULT    \RankPop = 0.946  x1  <- results/tables/ranking_metrics_test.csv {'config': 'A1', 'relevance': 'AB', 'metric': 'NDCG@5'} value
+RESULT    \RankRandom = 0.739  x1  <- results/tables/ranking_metrics_test.csv {'config': 'A0', 'relevance': 'AB', 'metric': 'NDCG@5'} value
+RESULT    \RankThree = 0.828  x1  <- results/tables/ranking_metrics_test.csv {'config': 'A3', 'relevance': 'AB', 'metric': 'NDCG@5'} value
+RESULT    \RankThreeB = 0.553  x1  <- results/tables/ranking_metrics_test.csv {'config': 'A3', 'relevance': 'B', 'metric': 'NDCG@5'} value
+RESULT    \ResetFive = 20%  x1  <- results/v2/exam_check/delta_and_revision_at_exam_val.csv {'topic': '5'} share_reset_in_revision_period
+RESULT    \ResetSix = 90%  x1  <- results/v2/exam_check/delta_and_revision_at_exam_val.csv {'topic': '6'} share_reset_in_revision_period
+RESULT    \ResetThree = 34%  x1  <- results/v2/exam_check/delta_and_revision_at_exam_val.csv {'topic': '3'} share_reset_in_revision_period
+RESULT    \ScaleGap = 0.39  x1  <- report/audit/scoring_scale.csv {'recorded_file': 'results/v3/holdout/plans_CCC.csv', 'scale': 'score'} max_abs_diff_K_exam
+RESULT    \ScaleRaw = 0.726  x1  <- results/v3/knowledge_scale_selection_val.csv {'scale': 'raw'} A5_val_NDCG@5
+RESULT    \ScaleScore = 0.802  x1  <- results/v3/knowledge_scale_selection_val.csv {'scale': 'score'} A5_val_NDCG@5
+RESULT    \SensData = -0.091  x1  <- results/tables/sensitivity.csv {'sensitivity': 'pass70', 'comparison': 'A5_data vs A3_data'} diff
+RESULT    \SensNonsub = +0.020  x1  <- results/tables/sensitivity.csv {'sensitivity': 'nonsub_fail', 'comparison': 'A5 vs A3'} diff
+RESULT    \SensSeventy = +0.013  x1  <- results/tables/sensitivity.csv {'sensitivity': 'pass70', 'comparison': 'A5 vs A3'} diff
+RESULT    \SitesCCC = 28  x1  <- report/audit/attribution_revision_clicks.csv {'course_set': 'CCC'} n_sites_shared_because_of_revision_clicks
+RESULT    \SitesMain = 27  x1  <- report/audit/attribution_revision_clicks.csv {'course_set': 'DDDFFF'} n_sites_shared_because_of_revision_clicks
+RESULT    \SubmitRate = 80%  x1  <- results/tables/audit_cleaning_log.json {} interactions/share_submitted
+RESULT    \TestRows = 14,976  x1  <- results/tables/model_metrics_test.csv {'model': 'learned'} n_rows
+RESULT    \TestStudents = 3,064  x1  <- results/tables/model_metrics_test.csv {'model': 'learned'} n_students
+RESULT    \ValVTwo = 0.778  x1  <- results/v3/recommender_val.csv {'config': 'v2:A5', 'relevance': 'AB', 'metric': 'NDCG@5'} value
+RESULT    \VisDirectHigh = 47%  x1  <- results/v3/attribution_revision_diagnostics_val.csv {'attribution': 'direct', 'topic': '4'} share_examtakers_with_dose_ge_log1p3
+RESULT    \VisDirectLow = 15%  x1  <- results/v3/attribution_revision_diagnostics_val.csv {'attribution': 'direct', 'topic': '2'} share_examtakers_with_dose_ge_log1p3
+RESULT    \VisSharedHigh = 59%  x1  <- results/v3/attribution_revision_diagnostics_val.csv {'attribution': 'shared_0.4', 'topic': '2'} share_examtakers_with_dose_ge_log1p3
+RESULT    \VisSharedLow = 56%  x1  <- results/v3/attribution_revision_diagnostics_val.csv {'attribution': 'shared_0.4', 'topic': '3'} share_examtakers_with_dose_ge_log1p3
+RESULT    \WeekMapDDD = 0.1%  x1  <- results/tables/topic_map_method_share.csv {'code_module': 'DDD', 'map_method': 'week_from'} share_sites
+RESULT    \WeekMapFFF = 42%  x1  <- results/tables/topic_map_method_share.csv {'code_module': 'FFF', 'map_method': 'week_from'} share_sites
+JUSTIFIED 2310110452: roll number, from the midterm report  |  ...omputer Science and Engineering} \textit{Shiv Nadar University} India 2310110452} \and \IEEEauthorblockN{Anushi Gupta} \IEEEauthorblockA{\textit{Depar...
+JUSTIFIED 2310110419: roll number, from the midterm report  |  ...omputer Science and Engineering} \textit{Shiv Nadar University} India 2310110419}} \maketitle We built an interpretable learning-path recommender on t...
+JUSTIFIED 40: pass mark (Methodology 3.4)  |  ...ts cohort clicked it most. The outcome is a pass, a score of at least 40. Among the student--topic rows of the main modules, \SubmitRate{} wer...
+JUSTIFIED 2: base of the half-life curve  |  ...opic $j$, mastery $M_{s,j}$ is the normalised score and R_{s,j}(t) &= 2^{-\Delta_{s,j}(t)/h_{s,j}}, & K_{s,j}(t) &= M_{s,j}R_{s,j}(t), \log_2...
+JUSTIFIED 3: reset threshold (Methodology 5.1)  |  ...lta$ is the time since submission, or since a later day with at least 3 clicks on the topic's own resources. $c$ and $d$ are clicks and activ...
+JUSTIFIED 1: half-life bound (config/config.yaml)  |  ...s. $c$ and $d$ are clicks and active days, and $h$ is bounded between 1 and 365 days. With $\bar K$ the mean knowledge of the prerequisites, ...
+JUSTIFIED 365: half-life bound (config/config.yaml)  |  ... and $d$ are clicks and active days, and $h$ is bounded between 1 and 365 days. With $\bar K$ the mean knowledge of the prerequisites, \operato...
+JUSTIFIED 1: the pass label in the model definition  |  ...he mean knowledge of the prerequisites, \operatorname{logit}P(y_{s,k}=1)={}&\beta_k+\theta_a a_s+\theta_K\bar K+\theta_c c_{s,k} &+\theta_I I...
+JUSTIFIED 1: definition of no forgetting  |  ...I_{s,k}+\theta_{Ic}I_{s,k}c_{s,k}. The variants are no forgetting ($R=1$), fixed exponential decay (time constant \FixedS{} days, chosen on v...
+JUSTIFIED 0.80: fixed navigation rule (DECISIONS v3-1)  |  ...glossaries with evenly spread use (normalised weekly entropy at least 0.80), are navigation and never count as practice. They account for \NavLo...
+JUSTIFIED 0.4: frozen attribution setting (final_config_v3.yaml)  |  ...is attributed to topics. Resources with spread-out use (entropy above 0.4), final-window resources and exam-preparation resources are shared ov...
+JUSTIFIED 1: definition of the activation  |  ...$ at times $t_i$: m_{s,j}(t) &= \ln\textstyle\sum_{t_i<t} x_i\,(t-t_i+1)^{-d_i}, d_i &= c\,e^{m_{s,j}(t_i)}+a, \operatorname{logit}K_{s,j}(t)...
+JUSTIFIED 2: candidate horizon (config/config.yaml)  |  ...ne. \subsection{Candidates, Score and Path} New topics must be within 2 topics of the current one and have ready prerequisites. Revision topi...
+JUSTIFIED 50: frozen q_rev (final_config_v2.yaml)  |  ... which validation effectively switched off. v2 and v3 flag the lowest 50\% of each student's assessed topics. Candidates are ranked by S=\alph...
+JUSTIFIED 1: definition of G  |  ...\beta Q+\gamma F+\delta D+\varepsilon I+\zeta\,\mathrm{Pop}, where $G=1-M$ is the gap, $Q$ the lowest prerequisite $K$, $F=M-K$ the forgettin...
+JUSTIFIED 1: definition of D  |  ... the gap, $Q$ the lowest prerequisite $K$, $F=M-K$ the forgetting, $D=1-|K-p^*|/\max(p^*,1-p^*)$ the fit to a target success rate, and Pop (a...
+JUSTIFIED 1: definition of D  |  ...owest prerequisite $K$, $F=M-K$ the forgetting, $D=1-|K-p^*|/\max(p^*,1-p^*)$ the fit to a target success rate, and Pop (added in v2) the use...
+JUSTIFIED 5: path length (config/config.yaml)  |  ... at the same point. Weights are tuned on validation. A path has up to 5 items, at most 3 of them revisions, with prerequisites first. The lar...
+JUSTIFIED 3: revision cap (config/config.yaml)  |  ...t. Weights are tuned on validation. A path has up to 5 items, at most 3 of them revisions, with prerequisites first. The largest weighted ter...
+JUSTIFIED 4: planner weeks (final_config_v3.yaml)  |  ...pplies each explanation (Fig.~ ). In the v3 planner, each of the last 4 weeks before the exam lists the 3 topics with the largest $M-K$ predi...
+JUSTIFIED 3: planner top-3 (final_config_v3.yaml)  |  ...In the v3 planner, each of the last 4 weeks before the exam lists the 3 topics with the largest $M-K$ predicted for the exam day. \centering ...
+JUSTIFIED 0.002: preregistered margin (PREREGISTRATION_v3.md)  |  ...ria were: (a) holdout within-course AUC no worse than v2 by more than 0.002, (b) a CCC exam gap above v2's $-0.096$ with the interval of the impr...
+JUSTIFIED 0.096: preregistered reference (PREREGISTRATION_v3.md)  |  ... no worse than v2 by more than 0.002, (b) a CCC exam gap above v2's $-0.096$ with the interval of the improvement above 0, and (c) holdout NDCG@5...
+JUSTIFIED 0: preregistered threshold (PREREGISTRATION_v3.md)  |  ...am gap above v2's $-0.096$ with the interval of the improvement above 0, and (c) holdout NDCG@5 of A5 at least that of v2. (a) and (c) are pr...
+JUSTIFIED 10: Rel-A threshold (Methodology 7.2)  |  ...g-loss and Brier score. For ranking, Rel-A marks topics with at least 10 clicks in the following window among students who then passed, and Re...
+JUSTIFIED 2: Rel-B depth (Methodology 7.2)  |  ...students who then passed, and Rel-B marks the current topic and up to 2 before it among students who then failed. Combined relevance pools bo...
+JUSTIFIED 95: confidence level (Methodology 7.6)  |  ...ean $M$. A positive gap would favour decayed knowledge. Intervals are 95\% bootstrap intervals over students (1{,}000 resamples, and 200 for c...
+JUSTIFIED 1{,}000: bootstrap resamples (config/config.yaml)  |  ...ayed knowledge. Intervals are 95\% bootstrap intervals over students (1{,}000 resamples, and 200 for coefficients). Ranking comparisons use paired ...
+JUSTIFIED 200: coefficient resamples (config/config.yaml)  |  ...ls are 95\% bootstrap intervals over students (1{,}000 resamples, and 200 for coefficients). Ranking comparisons use paired Wilcoxon tests with...
+JUSTIFIED 1: topic label  |  ... and for \LeakLow{} to \LeakHigh{} on the holdout (Table~ ). On topic 1, where there is no history, ability alone reaches an AUC of \LeakAucD...
+JUSTIFIED 1: topic label  |  ...\LeakAucDDD{} in DDD and \LeakAucFFF{} in FFF. In CCC, where no topic 1 row is affected, it reaches \LeakAucCCC. Post-submission clicks enter...
+JUSTIFIED 4: planner weeks (final_config_v3.yaml)  |  ...cludes later activity. In CCC 2014J, \LateWeeksCCC{} of the planner's 4 weeks fall after the median exam. \emph{D3, departure from the prereg...
+JUSTIFIED 70: sensitivity pass mark (Methodology 7.6)  |  ...o few topics. The A5--A3 difference kept its sign with a pass mark of 70 (\SensSeventy) and with non-submission counted as failure (\SensNonsu...
+JUSTIFIED 2: topic label  |  ...edHigh{} of DDD validation exam-takers have a revision dose on topics 2 to 5, against \VisDirectLow{} to \VisDirectHigh{} with direct attribu...
+JUSTIFIED 5: topic label  |  ...h{} of DDD validation exam-takers have a revision dose on topics 2 to 5, against \VisDirectLow{} to \VisDirectHigh{} with direct attribution ...
+JUSTIFIED 2: topic label in a caption  |  ...ils nor that it would have passed. \centering \caption{Example: topic 2 of the demonstration's default DDD student, chosen by a fixed rule. P...
+JUSTIFIED 0.9: frozen target p* (final_config_v3.yaml)  |  ...ed lists. The frozen v3 A5 puts all weight on $D$. For $K$ below $p^*=0.9$ this term grows with $K$, so the best-retained revision topic comes ...

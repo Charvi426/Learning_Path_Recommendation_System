@@ -1,0 +1,8 @@
+code_module,presentations,all_ok_count,all_ok_topics,min_topics,max_topics,has_train,has_val,has_test,selected
+AAA,"2013J,2014J",True,True,5,5,True,False,True,False
+BBB,"2013B,2013J,2014B,2014J",True,True,5,7,True,False,True,False
+CCC,"2014B,2014J",True,True,8,8,True,False,True,False
+DDD,"2013B,2013J,2014B,2014J",True,True,6,13,True,False,True,False
+EEE,"2013J,2014B,2014J",False,False,4,4,True,False,True,False
+FFF,"2013B,2013J,2014B,2014J",True,True,6,6,True,False,True,False
+GGG,"2013J,2014B,2014J",True,False,4,4,True,False,True,True

@@ -1,0 +1,4 @@
+criterion,value,met
+(a) holdout within-course AUC: v3 not worse than v2 learned half-life by more than 0.002,"v3 0.8482 [0.8380, 0.8586] vs v2 0.8413 [0.8313, 0.8514]; diff +0.0069 [+0.0029, +0.0111]",True
+(b) CCC exam Δρ higher than v2's −0.096 AND paired bootstrap CI of the improvement excludes 0,"v3 Δρ -0.0258; v2 recomputed -0.0955; improvement +0.0698 [+0.0515, +0.0877]",True
+(c) holdout NDCG@5 (combined) of v3 A5 >= v2 A5,"v3 A5 0.6536 [0.6465, 0.6609] vs v2 A5 0.7178 [0.7122, 0.7227]",False

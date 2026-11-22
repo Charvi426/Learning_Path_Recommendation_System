@@ -1,0 +1,5 @@
+code_module,map_method,n_sites,clicks,share_sites,share_clicks
+EEE,cohort_clicks,239,2255036.5,0.7113095238095238,0.57810426
+EEE,excluded_navigation,3,648332.0,0.008928571428571428,0.16620728
+EEE,unmapped_no_clicks,15,0.0,0.044642857142857144,0.0
+EEE,week_from,79,997375.0,0.23511904761904762,0.25568843

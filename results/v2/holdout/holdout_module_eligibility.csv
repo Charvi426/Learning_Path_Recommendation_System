@@ -1,0 +1,6 @@
+module,presentations,topics_per_presentation,min_topics_ok(>=4),presentations_ok(>=2),kept,reason
+AAA,"2013J,2014J","5,5",True,True,True,
+BBB,"2013B,2013J,2014B,2014J","7,7,7,5",True,True,True,
+CCC,"2014B,2014J","8,8",True,True,True,
+EEE,"2013J,2014B,2014J","4,4,4",True,True,True,
+GGG,"2013J,2014B,2014J","4,4,4",True,True,True,

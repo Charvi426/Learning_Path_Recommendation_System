@@ -1,0 +1,4 @@
+code_module,map_method,n_sites,clicks,share_sites,share_clicks
+GGG,cohort_clicks,352,1014879.56,0.9591280653950953,0.77452594
+GGG,excluded_navigation,3,280613.0,0.008174386920980926,0.21415551
+GGG,week_from,12,14831.0,0.0326975476839237,0.011318579

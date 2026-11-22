@@ -1,0 +1,251 @@
+\documentclass[conference]{IEEEtran}
+\usepackage[T1]{fontenc} % Times under XeTeX (tectonic) as well as pdfLaTeX
+\usepackage{amsmath,amssymb,array,booktabs,graphicx,cite,url,microtype}
+\input{tables/numbers.tex}
+
+\begin{document}
+
+\title{Personalized Learning Path Recommendation\\System with Forgetting-Aware Revision}
+
+\author{\IEEEauthorblockN{Charvi}
+\IEEEauthorblockA{\textit{Department of Computer Science and Engineering}\\
+\textit{Shiv Nadar University}\\
+India\\
+2310110452}
+\and
+\IEEEauthorblockN{Anushi Gupta}
+\IEEEauthorblockA{\textit{Department of Computer Science and Engineering}\\
+\textit{Shiv Nadar University}\\
+India\\
+2310110419}}
+
+\maketitle
+
+\begin{abstract}
+We built an interpretable learning-path recommender on the Open University Learning Analytics Dataset. It estimates mastery and forgetting for each topic, adds a behavioural interest proxy, and recommends what to revise, practise or learn. We evaluated it in three stages: a planned analysis (v1), post-hoc fixes tested on five further modules (v2), and a preregistered, post-hoc revision of the memory model (v3). As recorded, v3 met two of its three criteria, on holdout prediction and on an exploratory exam check, and did not meet the third, on holdout ranking. Popularity outranked every model-based configuration on combined relevance, and neither interest nor the pre-exam planner showed a dependable benefit. An audit made while writing this report found that these results cannot be relied on. The ability feature contains the label for \LeakMain{} of the main test rows. The exam day used is \LateMin{} to \LateMax{} days later than the median sitting. The v3 recommender was scored on a different knowledge scale from the one preregistered, so its failed criterion did not test the preregistered system. We report all results as recorded, label their status, and specify the corrections needed. The contribution is a working, explainable pipeline and a documented account of how its evaluation failed, not evidence that forgetting-aware recommendation works.
+\end{abstract}
+
+\begin{IEEEkeywords}
+learning path recommendation, knowledge tracing, forgetting, learning analytics, preregistration, data leakage
+\end{IEEEkeywords}
+
+\section{Introduction}
+Online courses usually give every learner the same sequence of material. Such a sequence assumes that learners start from the same knowledge and remember earlier concepts equally well. In practice some learners spend time on material they already know, others move on before they are ready, and knowledge that is not used becomes harder to recall.
+
+\subsection{Problem and Motivation}
+Given a student's assessments and activity up to a decision time, we want a short, ordered and explained list of topics: some to learn, some to practise, and some learned earlier that should be revised. This requires an estimate of what the student mastered and of how much of it remains. The midterm hypothesis was that modelling retention explicitly improves recommended paths. We also ask whether a learned decay is better than a fixed one, and whether a student's interest in a topic adds anything.
+
+\subsection{Contributions}
+\begin{itemize}
+\item An interpretable pipeline from course logs to explained paths, with every component switchable in an ablation.
+\item A revision-attribution step and a history-based memory model, built after diagnosing why forgetting failed an exam-based check, and an interactive demonstration of the system.
+\item A three-stage evaluation that separates planned, post-hoc, preregistered and exploratory evidence.
+\item An audit of that evaluation, which found defects that invalidate its main comparisons. We report them with the results and do not claim an effect of forgetting, interest or the planner.
+\end{itemize}
+
+\section{Related Work}
+\subsection{Recommenders and Learning Paths}
+Da Silva \emph{et al.}~\cite{dasilva2023} reviewed educational recommender systems and found a need for better evaluation and finer personalisation. Rahayu \emph{et al.}~\cite{rahayu2023} reviewed learning-path recommenders by student model, materials, method and evaluation. Recommending learning content differs from recommending products: items are linked pedagogically, and the learner's state changes along the path. Zhang \emph{et al.}~\cite{zhang} combine process mining with deep knowledge tracing so that a path can branch as that state changes. CSEAL~\cite{liu2019} restricts candidates by cognitive navigation over a knowledge structure and chooses among them with reinforcement learning. We keep the candidate filter and replace the learned policy with a transparent weighted sum.
+
+\subsection{Knowledge Tracing}
+Knowledge tracing estimates a learner's changing knowledge from interactions~\cite{abdelrahman2023}. Performance Factors Analysis (PFA) is a logistic model on counts of past successes and failures~\cite{pavlik2009}, and Knowledge Tracing Machines generalise such models with factorisation machines~\cite{vie2019}. Deep Knowledge Tracing (DKT) uses a recurrent network~\cite{piech2015}. Later models add attention~\cite{ghosh2020} or a process-consistent account of learning~\cite{shen2021}, and pyKT provides common implementations~\cite{liu2022}. Gervet \emph{et al.}~\cite{gervet2020} report that simple models are competitive on moderate-sized data, which motivated our choice of logistic models.
+
+\subsection{Forgetting and Interest}
+Nagatani \emph{et al.}~\cite{nagatani2019} add forgetting features, such as time since the last interaction, to DKT. GFLDKT models learning and forgetting with explicit gates~\cite{zhao2023}. Half-life regression learns the rate of an exponential forgetting curve~\cite{settles2016}. DAS3H counts practice in time windows, so recency is captured without a fixed curve~\cite{choffin2019}. ACT-R activation sums decaying traces of all past practice, with decay that can depend on spacing~\cite{pavlik2005}. FKGRec~\cite{fan2026} is closest to our goal: it recommends new and possibly forgotten concepts with a memory graph network and reinforcement learning. Interest is thought to develop in phases~\cite{hidi2006}, and states of curiosity have been linked to better memory~\cite{gruber2014}. This motivates testing interest as a modifier of retention, while recognising that clicks do not measure interest.
+
+\subsection{Gap}
+We do not claim that forgetting-aware recommendation is new. Our question is narrower: how much does an explicit, interpretable forgetting component add to a path recommender, when each component is tested by ablation?
+
+\section{Dataset and Preprocessing}
+OULAD~\cite{kuzilek2017,oulad_uci} has seven modules in \NPresentations{} presentations, with \NRegistrations{} student registrations, \NAssessRecords{} assessment results and daily click counts per learning resource. It has no concept labels and no per-question answers.
+
+\subsection{Topics and Outcomes}
+A topic is the window between consecutive non-exam due dates, and assessments due on the same day are merged. Each resource is assigned to a topic by its planned week where given (\WeekMapDDD{} of DDD and \WeekMapFFF{} of FFF resources). Otherwise it goes to the window in which its cohort clicked it most. The outcome is a pass, a score of at least 40. Among the student--topic rows of the main modules, \SubmitRate{} were submitted, and \PassRate{} of those passed, so failures are rare. Non-submissions are excluded by default. Banked results and topics due after withdrawal are removed, and clicks are capped using training presentations.
+
+\subsection{Modules and Splits}
+The planned analysis uses DDD and FFF, whose topic structure is the same in all four presentations once the extra quizzes of DDD 2013B are dropped. It trains on 2013B and 2013J, tunes on 2014B and tests on 2014J (\TestStudents{} students, \TestRows{} outcomes). The other five modules (AAA, BBB, CCC, EEE, GGG) became a holdout in v2. Each is trained on its earlier presentations and tested on 2014J (\HoldRows{} outcomes, and \HoldStudents{} students with a relevance set). Only DDD and CCC have exam scores.
+
+\section{Methodology}
+Fig.~\ref{fig:pipeline} shows the pipeline.
+
+\begin{figure}[!t]
+\centering\includegraphics[width=\columnwidth]{figures/pipeline.pdf}
+\caption{System pipeline.}
+\label{fig:pipeline}
+\end{figure}
+
+\subsection{Factors}
+For student $s$, topic $k$ and time $t$ the system computes windowed clicks and active days, ability (the shrunk pass rate over topics already assessed), successes and failures on prerequisites, and topic difficulty. The prerequisite graph is the course order. Edges derived from data were considered, but none met the support rule at the planned pass mark. Factors were intended to use only events before $t$. Section~\ref{sec:audit} explains where this failed.
+
+\subsection{Forgetting-Aware PFA (v1, v2)}
+For an assessed topic $j$, mastery $M_{s,j}$ is the normalised score and
+\begin{align}
+R_{s,j}(t) &= 2^{-\Delta_{s,j}(t)/h_{s,j}}, & K_{s,j}(t) &= M_{s,j}R_{s,j}(t),\\
+\log_2 h_{s,j} &= \phi_0+\phi_c c_{s,j}+\phi_d d_{s,j}+\phi_I I_{s,j}. \hspace{-8em}
+\end{align}
+$\Delta$ is the time since submission, or since a later day with at least 3 clicks on the topic's own resources. $c$ and $d$ are clicks and active days, and $h$ is bounded between 1 and 365 days. With $\bar K$ the mean knowledge of the prerequisites,
+\begin{equation}
+\begin{split}
+\operatorname{logit}P(y_{s,k}=1)={}&\beta_k+\theta_a a_s+\theta_K\bar K+\theta_c c_{s,k}\\
+&+\theta_I I_{s,k}+\theta_{Ic}I_{s,k}c_{s,k}.
+\end{split}
+\end{equation}
+The variants are no forgetting ($R=1$), fixed exponential decay (time constant \FixedS{} days, chosen on validation), learned half-life, and learned half-life with the interest terms. They are compared with majority, topic difficulty, PFA and DAS3H-style windows, and with DKT as an optional baseline.
+
+\subsection{Interest Proxy}
+Interest is proxied by three log click signals: optional resource types, clicks before a topic opens, and clicks after its assessment. Their sum becomes a share of the student's own activity, is standardised against the training cohort, centred within the student and squashed to a value between zero and one. Its correlation with total activity is low ($r=\InterestActivityR$), and its split-half correlation is moderate ($r=\InterestSplitHalf$). It is a behavioural proxy and not measured interest.
+
+\subsection{v3 Memory Model}
+v3 changes three things. First, home pages, and forums, subpages and glossaries with evenly spread use (normalised weekly entropy at least 0.80), are navigation and never count as practice. They account for \NavLow{} to \NavHigh{} of clicks by module. Second, the practice on each content resource is attributed to topics. Resources with spread-out use (entropy above 0.4), final-window resources and exam-preparation resources are shared over the topics assessed so far and the current one. Third, retention uses the whole history of doses $x_i$ at times $t_i$:
+\begin{align}
+m_{s,j}(t) &= \ln\textstyle\sum_{t_i<t} x_i\,(t-t_i+1)^{-d_i},\\
+d_i &= c\,e^{m_{s,j}(t_i)}+a,\\
+\operatorname{logit}K_{s,j}(t) &= b_0+b_M\operatorname{logit}M_{s,j}+b_m z(m_{s,j}(t)).
+\end{align}
+Validation selected $a=\DecayA$, $c=\DecayC$ and a submission dose of \DoseSub. Because this $K$ is not on the scale of a score, the preregistered recommender and planner use $MR$, with $R$ the ratio of $K$ now to $K$ just after submission, clipped at one.
+
+\subsection{Candidates, Score and Path}
+New topics must be within 2 topics of the current one and have ready prerequisites. Revision topics are those with low $K$. v1 used absolute thresholds, which validation effectively switched off. v2 and v3 flag the lowest 50\% of each student's assessed topics. Candidates are ranked by
+\begin{equation}
+S=\alpha G+\beta Q+\gamma F+\delta D+\varepsilon I+\zeta\,\mathrm{Pop},
+\end{equation}
+where $G=1-M$ is the gap, $Q$ the lowest prerequisite $K$, $F=M-K$ the forgetting, $D=1-|K-p^*|/\max(p^*,1-p^*)$ the fit to a target success rate, and Pop (added in v2) the use of the topic by earlier cohorts at the same point. Weights are tuned on validation. A path has up to 5 items, at most 3 of them revisions, with prerequisites first. The largest weighted term supplies each explanation (Fig.~\ref{fig:demo}). In the v3 planner, each of the last 4 weeks before the exam lists the 3 topics with the largest $M-K$ predicted for the exam day.
+
+\begin{figure}[!t]
+\centering\includegraphics[width=\columnwidth]{figures/demo_crop.png}
+\caption{Demonstration, student view: knowledge state and explained path. Paths follow the frozen configuration and illustrate the mechanism. They are not validated advice.}
+\label{fig:demo}
+\end{figure}
+
+\section{Experimental Protocol}
+\subsection{Three Stages}
+\emph{v1, planned.} The methodology was fixed in advance. Settings were tuned on 2014B, with logged deviations such as a wider threshold grid, and reported on 2014J, with ablations from random (A0) and popularity (A1) through mastery (A2), prerequisites (A3), fixed forgetting (A4), learned forgetting (A5), interest (A6) and data-derived prerequisites (A7).
+
+\emph{v2, post-hoc.} After the v1 test results were seen, we diagnosed the exam check, made the filters relative, added popularity as a score term (A8 is A5 with it, A9 is A6 with it) and introduced the holdout. Choices were made on validation. v2 results on DDD/FFF 2014J are exploratory.
+
+\emph{v3, post-hoc and preregistered.} The memory model was designed on validation. Variant, settings, comparisons and three criteria were committed before v3 was scored elsewhere. The criteria were: (a) holdout within-course AUC no worse than v2 by more than 0.002, (b) a CCC exam gap above v2's $-0.096$ with the interval of the improvement above 0, and (c) holdout NDCG@5 of A5 at least that of v2. (a) and (c) are primary. (b) and everything on DDD/FFF 2014J are exploratory. The holdout was not fresh for v3, because its v2 results had been seen.
+
+\subsection{Measures}
+Prediction is measured by AUC, log-loss and Brier score. For ranking, Rel-A marks topics with at least 10 clicks in the following window among students who then passed, and Rel-B marks the current topic and up to 2 before it among students who then failed. Combined relevance pools both. The exam check compares the Spearman correlation with the exam score of mean $K$ and of mean $M$. A positive gap would favour decayed knowledge. Intervals are 95\% bootstrap intervals over students (1{,}000 resamples, and 200 for coefficients). Ranking comparisons use paired Wilcoxon tests with Holm correction.
+
+\subsection{Audit of the Evaluation}\label{sec:audit}
+While preparing this report we re-read the code and checked it against the stored data without refitting. We found four defects.
+
+\emph{D1, label leakage.} A row for topic $k$ is predicted at its due date, and ability averages all results submitted earlier. An early submitter's own label is therefore in the feature. This holds for \LeakMain{} of DDD/FFF test rows and for \LeakLow{} to \LeakHigh{} on the holdout (Table~\ref{tab:leak}). On topic 1, where there is no history, ability alone reaches an AUC of \LeakAucDDD{} in DDD and \LeakAucFFF{} in FFF. In CCC, where no topic 1 row is affected, it reaches \LeakAucCCC. Post-submission clicks enter other features of the same rows. Every predictive metric, and every choice tuned on one, is contaminated. The original leakage tests passed because they altered only events after the prediction time.
+
+\emph{D2, exam day.} The exam was placed on the last day of the presentation. The median recorded sitting is \LateMin{} to \LateMax{} days earlier (Table~\ref{tab:examday}), so ``knowledge at the exam'' includes later activity. In CCC 2014J, \LateWeeksCCC{} of the planner's 4 weeks fall after the median exam.
+
+\emph{D3, departure from the preregistration.} The preregistration and frozen configuration specify $MR$ for the recommender and planner. The scoring script used raw $K$ outside validation. The stored plans and the A5 ranking scores are reproduced exactly with raw $K$, and the preregistered scale gives plan values that differ by up to \ScaleGap. The correctly configured results were not computed and are unknown.
+
+\emph{D4, look-ahead in cohort features.} Topic maps, navigation classes and attribution weights use the scored cohort's own clicks over the whole course. Contrary to our log, the shared rule also reads the revision period, which changes the class of \SitesMain{} DDD/FFF and \SitesCCC{} CCC resources.
+
+Results below are unchanged. They describe what was recorded, not what is established.
+
+\input{tables/leak.tex}
+
+\section{Results}
+\subsection{v1: Planned Analysis}
+Table~\ref{tab:pred-v1} gives the recorded prediction metrics. The learned half-life reached an AUC of \AucLearned, against \AucNone{} without forgetting (paired difference \AucGain, interval \AucGainLo{} to \AucGainHi). The model with only topic and ability already reached \AucTopicOne. D1 makes all of these invalid as estimates of performance, and the comparison with DKT, which lacks the ability feature, is not like for like (Table~\ref{tab:dkt}).
+
+In ranking (Table~\ref{tab:rank-v1}), A5 scored \RankFive{} and A3 \RankThree{} on combined relevance, with most of the difference on Rel-B (\RankFiveB{} against \RankThreeB). That A3 had been tuned to rank by readiness alone, so it was a weak reference. Popularity scored \RankPop. Random scored \RankRandom, more than mastery alone (\RankMastery), which shows how forgiving the measure is with so few topics. The A5--A3 difference kept its sign with a pass mark of 70 (\SensSeventy) and with non-submission counted as failure (\SensNonsub). It reversed with data-derived prerequisites at the higher pass mark (\SensData). These rankings depend on coefficients and settings fitted under D1.
+
+The exam check went against the forgetting hypothesis: the gap for the learned decay was \ExamGap{} on DDD (Table~\ref{tab:exam}). This check is subject to D2.
+
+\input{tables/rank_v1.tex}
+
+\subsection{v2: Post-Hoc Fixes and Holdout}
+The diagnosis on validation (Fig.~\ref{fig:diag}) found that middle topics are rarely reopened. Their median $\Delta$ at the assumed exam day ranges from \DeltaFive{} to \DeltaTwo{} days, and only \ResetFive{} to \ResetThree{} of students reset their clock on them, against \ResetSix{} for the final topic. The clock arithmetic was correct, but this audit did not notice that the exam day itself was wrong.
+
+On the holdout, the recorded AUC difference between learned decay and no forgetting was \HoldGain{} (interval \HoldGainLo{} to \HoldGainHi), and DAS3H was ahead of the learned model by \HoldDasGap{} (Table~\ref{tab:pred-v2}). In ranking (Fig.~\ref{fig:ndcg}, Table~\ref{tab:rank-holdout}), A5 minus A3 was \HoldForget{} on combined relevance and \HoldForgetB{} on Rel-B. A9 minus A8, the interest contrast, was \HoldInterest. Popularity scored \HoldPop, and A8 trailed it by \HoldPopGap. Popularity uses only earlier cohorts and fits no model, so it is the result least affected by D1. In the exploratory run on DDD/FFF 2014J, A5 minus A3 was \PostForget.
+
+\begin{figure}[!t]
+\centering\includegraphics[width=\columnwidth]{figures/exam_diagnosis.pdf}
+\caption{Exam diagnosis, DDD 2014B (post-hoc, validation). ``At the exam'' means the last day of the presentation, which is after the real exam (D2).}
+\label{fig:diag}
+\end{figure}
+
+\begin{figure}[!t]
+\centering\includegraphics[width=\columnwidth]{figures/ndcg_holdout.pdf}
+\caption{Holdout ranking (post-hoc, v3 preregistered). Hollow points were scored with raw $K$ and not as preregistered (D3). Model-based configurations are indirectly affected by D1.}
+\label{fig:ndcg}
+\end{figure}
+
+\input{tables/rank_holdout.tex}
+
+\subsection{v3: Preregistered Memory Revision}
+With shared attribution, \VisSharedLow{} to \VisSharedHigh{} of DDD validation exam-takers have a revision dose on topics 2 to 5, against \VisDirectLow{} to \VisDirectHigh{} with direct attribution of content. Part of this rise is mechanical, because one click on a shared resource is credited to several topics. Fig.~\ref{fig:curve} shows the two memory models for one student. On validation no variant reached a non-negative exam gap, so the fallback rule selected the spacing-sensitive activation model (Table~\ref{tab:variants}). With $MR$, A5 scored \ScaleScore{} on validation, against \ScaleRaw{} with raw $K$ and \ValVTwo{} for v2.
+
+Table~\ref{tab:criteria} and Fig.~\ref{fig:criteria} give the criteria as recorded.
+
+\emph{(a) was met.} Holdout AUC was \CritAThree{} for v3 and \CritATwo{} for v2 (difference \CritADiff, interval \CritALo{} to \CritAHi). Both models contain D1.
+
+\emph{(b) was met (exploratory).} The CCC gap moved from \CritBTwo{} to \CritBThree{} (improvement \CritBDiff, interval \CritBLo{} to \CritBHi). It is still negative, so decayed knowledge remained a worse exam predictor than mastery. The criterion would also be met by no forgetting at all, whose gap is zero by definition, and the exam day is wrong.
+
+\emph{(c) was not met.} v3 A5 scored \CritCThree{} against \CritCTwo{} for v2. This is a failure of what was run, which was not the preregistered configuration (D3). It shows neither that the preregistered recommender fails nor that it would have passed.
+
+\begin{figure}[!t]
+\centering\includegraphics[width=\columnwidth]{figures/forgetting.pdf}
+\caption{Example: topic 2 of the demonstration's default DDD student, chosen by a fixed rule. Post-hoc illustration on 2014J. Both curves continue past the day the exam was sat.}
+\label{fig:curve}
+\end{figure}
+
+\begin{figure}[!t]
+\centering\includegraphics[width=\columnwidth]{figures/criteria.pdf}
+\caption{Preregistered v3 criteria as recorded: (a), (c) primary, (b) exploratory. Dashed lines are thresholds. (a) contains D1, (b) D2, and (c) was not scored as preregistered (D3).}
+\label{fig:criteria}
+\end{figure}
+
+\input{tables/criteria.tex}
+\input{tables/exam.tex}
+
+\subsection{Interest and Planner}
+In v1 two interest coefficients had intervals above zero and the interaction did not (Table~\ref{tab:interest}). The interest model did not predict better, and the tuned weight of interest in the score was zero in every configuration. The ranking contrast was negative in v1, positive on the holdout in v2 and negative in v3 as scored. We do not conclude that interest helps.
+
+The planner produces readable weekly plans, but there is no evidence that it helps. The association between revising flagged topics and the exam score was negative on validation and CCC and inconclusive on DDD 2014J (Table~\ref{tab:planner}). It is observational, confounded by who chooses to revise what, and affected by D2 and, outside validation, D3.
+
+\section{Discussion}
+\emph{Does forgetting help?} This evaluation cannot say. The prediction differences are small next to a leak of the label itself, and they cannot be corrected by inspection. The ranking gains change with the reference configuration and the stage. No exam check found decayed knowledge ahead of plain mastery, but all of them use the wrong day.
+
+\emph{What did v3 achieve?} It implemented a plausible remedy for invisible revision and a richer memory model. Its two criteria recorded as met are weaker than they look. In CCC the fitted weight on activation is \BmActivation, against \BmMastery{} on the logit of mastery, so $K$ there is close to a function of $M$ alone. A gap that shrinks towards zero can mean that the model forgets less, not that it models forgetting better. Its recommender has not yet been tested as specified.
+
+\emph{Learned or fixed decay?} The learned half-life was less negative than the fixed decay on both recorded exam checks, while fixed decay ranked slightly better in v1. Neither observation is reliable enough to choose between them.
+
+\emph{What does ranking measure here?} Rel-A rewards what cohorts usually do next, which is what popularity predicts. Rel-B is a fixed function of the current topic, so a rule that always lists that topic and the two before it would be perfect on it without personalisation. The baselines also rank an unfiltered set, while the proposed configurations return shorter filtered lists. The frozen v3 A5 puts all weight on $D$. For $K$ below $p^*=0.9$ this term grows with $K$, so the best-retained revision topic comes first, which is the opposite of the intended behaviour.
+
+\emph{What did the process teach us?} Preregistration fixed the criteria but did not check that the code implemented them. Reproduction from a clean clone matched every table and reproduced every bug. Tests that perturb the future cannot find a label that arrives early. A one-feature model on a row with no history, a plot of activity around the assumed exam day, and an assertion that the scoring configuration equals the frozen one would each have exposed a defect early.
+
+\section{Limitations and Future Work}
+Beyond D1 to D4, topics are assessment windows and not concepts, prerequisites are course order, and the first topic absorbs course-wide resources. Passing is near its ceiling, and excluding non-submission removes much of what failure means in this dataset. Results are treated as known on the submission day, although marking takes time. Some students appear in more than one presentation or module. Offline relevance is not learning, the simulated gains reported in the repository are model-based, and interest cannot be separated from motivation or deadlines.
+
+The first task is a corrected evaluation, registered as new work:
+\begin{enumerate}
+\item compute every feature for topic $k$ strictly before the earlier of its due date and the student's submission, and exclude $k$ from ability;
+\item use each student's recorded sitting day for the exam check and planner;
+\item derive cohort features from earlier presentations, or only from days before the prediction time;
+\item score exactly the frozen configuration, asserted in code, and then repeat selection, tuning and all three stages;
+\item compare with trivial baselines, including the fixed rule for Rel-B and no forgetting for the exam check.
+\end{enumerate}
+Since all the test sets have been seen, a confirmatory claim would need new data. Whether recommended revision improves learning needs a controlled study.
+
+\section{Conclusion}
+We built a complete, interpretable learning-path system with mastery, forgetting, prerequisites, interest, explanations, a revision planner and a working demonstration. Its evaluation does not establish the midterm hypothesis. As recorded, the preregistered revision met its prediction and exploratory exam criteria and failed its ranking criterion. The audit shows that the first two are not reliable and that the third did not test the registered system. Popularity remained the strongest recommender under our offline measures, and no benefit of interest or of the planner was demonstrated. The next step is the corrected evaluation described above.
+
+\appendices
+\section{Recorded Results in Full}
+All values below are generated from the frozen result files. The caption of each table gives its status.
+
+\input{tables/pred_v1.tex}
+\input{tables/pred_v2.tex}
+\input{tables/pred_v3.tex}
+\input{tables/dkt.tex}
+\input{tables/rank_2014j.tex}
+\input{tables/tests.tex}
+\input{tables/variants.tex}
+\input{tables/interest.tex}
+\input{tables/planner.tex}
+\input{tables/examday.tex}
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

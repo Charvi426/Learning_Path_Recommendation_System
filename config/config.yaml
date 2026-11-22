@@ -1,0 +1,66 @@
+# Central configuration. Every script reads this file (scripts/01-05).
+seed: 42
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  models: models
+  tables: results/tables
+  figures: results/figures
+  sample_paths: results/sample_paths
+
+# Module choice comes from the data audit (see DECISIONS.md, 2026-11-19 entries).
+modules: [DDD, FFF]
+min_non_exam_assessments: 5
+
+# Assessments to drop before topic construction (structure alignment, see DECISIONS.md)
+drop_assessment_types:
+  DDD_2013B: [CMA]
+
+split:
+  train: [2013B, 2013J]
+  val: [2014B]
+  test: [2014J]
+  fallback_val_share: 0.5      # modules without 2014B: split 2014J students 50/50 by id_student
+
+pass_mark: 40
+click_cap_quantile: 0.995
+# Activity types excluded from topic mapping (course-wide navigation, no topic content)
+unmapped_activity_types: [homepage]
+voluntary_types: [forumng, ouwiki, oucollaborate, glossary, url, resource, ouelluminate]
+
+features:
+  windows: [7, 30, .inf]
+  windows_extended: [7, 14, 30, .inf]
+  ability_shrink: 2
+  prev_attempts_cap: 2
+  revision_min_clicks: 3       # a day with >=3 clicks on j resets the forgetting clock
+  interest_lambda_early: 1.0
+  interest_lambda_post: 1.0
+
+prerequisites:
+  data_edge_min_diff: 0.15
+  data_edge_min_group: 200
+
+model:
+  l2_grid: [0.00001, 0.0001, 0.001, 0.01, 0.1]
+  fixed_S_grid: [7, 14, 30, 60, 120]
+  h_min: 1
+  h_max: 365
+  bootstrap: 200
+
+recommender:
+  K: 5
+  max_revision: 3
+  horizon: 2
+  threshold_grid: [0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+  p_star_grid: [0.6, 0.7, 0.8, 0.9]
+  weight_step: 0.1
+  eps_max: 0.2
+  start: {tau_m: 0.8, tau_q: 0.5, tau_r: 0.6, p_star: 0.7}
+  rel_a_min_clicks: 10
+
+evaluation:
+  bootstrap: 1000
+  holm_alpha: 0.05

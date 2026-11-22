@@ -1,0 +1,5 @@
+term,coef,ci_lo,ci_hi,n_students,n_excluded_no_revision_practice,label
+intercept,-16.57543459106168,-25.412803115954897,-7.06695275334912,865,77,"observational, not causal"
+mean_M,93.11420281837556,84.71040289004591,102.01224092416447,865,77,"observational, not causal"
+log1p_revision_clicks,1.744590696063625,0.7011719327971282,2.777783038767179,865,77,"observational, not causal"
+share_revision_on_flagged,6.50439969634755,-7.76700890902568,20.4052951404362,865,77,"observational, not causal"

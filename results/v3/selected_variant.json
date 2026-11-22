@@ -1,0 +1,18 @@
+{
+  "selected": "V3",
+  "rule_applied": "no variant reached \u0394\u03c1 >= 0: highest exam \u0394\u03c1 among variants within 0.002 of the best validation log-loss",
+  "kind": "actr",
+  "attribution": "shared_0.4",
+  "params": {
+    "rule": "spacing",
+    "a": 0.6000000000364322,
+    "c": 0.21699999997597938,
+    "x_sub": 9.999999999913662
+  },
+  "frozen_hyperparameters": {
+    "l2": 1e-05,
+    "l2_interest": 0.0001,
+    "S": 120,
+    "das3h_C": 1.0
+  }
+}

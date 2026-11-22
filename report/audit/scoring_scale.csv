@@ -1,0 +1,5 @@
+recorded_file,scale,is_preregistered_scale,n_rows,max_abs_diff_K_exam
+results/v3/holdout/plans_CCC.csv,raw,False,32088,0.0
+results/v3/holdout/plans_CCC.csv,score,True,32088,0.385082931
+results/v3/posthoc_2014J/plans_DDD_2014J.csv,raw,False,21804,0.0
+results/v3/posthoc_2014J/plans_DDD_2014J.csv,score,True,21804,0.089598265

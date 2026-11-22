@@ -1,0 +1,8 @@
+sensitivity,comparison,NDCG@5_x,NDCG@5_y,diff,p_wilcoxon,x_greater_holds,significant_0.05,note,gain_x,gain_y,simulator_test_AUC,x_ci,y_ci,n_data_edges
+"default (pass 40, non-submission excluded, chain)",A5 vs A3,0.8396502438601232,0.8278754634173503,0.011774780442772914,8.858665509716855e-11,True,True,chain = data graph here (no data-derived edge qualifies at pass mark 40),,,,,,
+windows 7_30_inf (simulator),A5 vs A3 (simulated gain),,,-2.2561097581196856e-05,2.8352199951966135e-17,False,True,A3/A5 rankings do not use windows; only the simulator changes,0.0008576420716130112,0.0008802031691942081,0.8884643118231101,,,
+windows 7_14_30_inf (simulator),A5 vs A3 (simulated gain),,,-2.2341712281525043e-05,2.4713732559033295e-17,False,True,A3/A5 rankings do not use windows; only the simulator changes,0.0008900404872424415,0.0009123821995239666,0.8885467455107403,,,
+pass70,A5 vs A3,0.8629723309715136,0.849572815867553,0.013399515103960646,2.8893690584289066e-22,True,True,,,,,"[0.859, 0.867]","[0.846, 0.854]",80.0
+pass70,A5_data vs A3_data,0.7525120014710578,0.8434896578795148,-0.09097765640845701,3.2411173363626614e-275,False,True,,,,,"[0.747, 0.758]","[0.839, 0.848]",80.0
+nonsub_fail,A5 vs A3,0.8024288497813551,0.7820075868243381,0.02042126295701696,4.307611026647472e-53,True,True,,,,,"[0.797, 0.808]","[0.777, 0.787]",64.0
+nonsub_fail,A5_data vs A3_data,0.7197763025486993,0.7732398467392776,-0.053463544190578305,1.6037072449189424e-189,False,True,,,,,"[0.714, 0.725]","[0.768, 0.779]",64.0

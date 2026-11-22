@@ -1,0 +1,17 @@
+{
+  "interactions": {
+    "rows_all_student_topic": 3740,
+    "dropped_after_withdrawal": 327,
+    "dropped_banked": 40,
+    "dropped_no_score": 3,
+    "rows_final": 3370,
+    "share_submitted": 0.9204747774480713,
+    "pass_rate_submitted": 0.9709864603481625
+  },
+  "studentAssessment": {
+    "rows_raw": 173912,
+    "banked": 1909,
+    "missing_score": 172,
+    "rows_clean": 171831
+  }
+}

@@ -1,0 +1,9 @@
+code_module,code_presentation,split,n_students
+DDD,2013B,train,1303
+DDD,2013J,train,1938
+DDD,2014B,val,1228
+DDD,2014J,test,1803
+FFF,2013B,train,1614
+FFF,2013J,train,2283
+FFF,2014B,val,1500
+FFF,2014J,test,2365

@@ -1,0 +1,177 @@
+frozen_at: '2026-11-21T15:46:03'
+note: v3 (POST-HOC). Variant, decay parameters, attribution and recommender weights
+  chosen on DDD/FFF validation (2014B) only. Frozen before any holdout, CCC-exam or
+  2014J v3 scoring.
+memory_variant:
+  selected: V3
+  rule_applied: "no variant reached \u0394\u03C1 >= 0: highest exam \u0394\u03C1 among\
+    \ variants within 0.002 of the best validation log-loss"
+  kind: actr
+  attribution: shared_0.4
+  params:
+    rule: spacing
+    a: 0.6000000000364322
+    c: 0.21699999997597938
+    x_sub: 9.999999999913662
+  frozen_hyperparameters:
+    l2: 1.0e-05
+    l2_interest: 0.0001
+    S: 120
+    das3h_C: 1.0
+knowledge_scale:
+  scale: score
+  kcol: K_score
+planner:
+  weeks_before_exam:
+  - 28
+  - 21
+  - 14
+  - 7
+  top_n: 3
+recommender:
+  K: 5
+  max_revision: 3
+  horizon: 2
+  filters: frozen from config/final_config_v2.yaml
+pop_definition: train_window
+ablations:
+  A3:
+    config:
+      kind: score
+      label: Mastery + prerequisites
+      model: none
+      active:
+      - G
+      - Q
+      - D
+      graph: chain
+    filters:
+      mode: within
+      q_rev: 50
+      q_new: 30
+      tau_q: 0.4
+      p_star: 0.6
+    weights:
+      G: 0.7
+      Q: 0.0
+      F: 0.0
+      D: 0.3
+      I: 0.0
+      Pop: 0.0
+    val_NDCG@5: 0.7726429871260285
+    val_R@5: 0.802852462579964
+    n_weight_vectors: 66
+  A5:
+    config:
+      kind: score
+      label: + learned forgetting
+      model: v3
+      active:
+      - G
+      - Q
+      - D
+      - F
+      graph: chain
+    filters:
+      mode: within
+      q_rev: 50
+      q_new: 30
+      tau_q: 0.4
+      p_star: 0.9
+    weights:
+      G: 0.0
+      Q: 0.0
+      F: 0.0
+      D: 1.0
+      I: 0.0
+      Pop: 0.0
+    val_NDCG@5: 0.802072419310524
+    val_R@5: 0.8066264517731817
+    n_weight_vectors: 286
+  A6:
+    config:
+      kind: score
+      label: + interest
+      model: v3I
+      active:
+      - G
+      - Q
+      - F
+      - D
+      - I
+      graph: chain
+    filters:
+      mode: within
+      q_rev: 50
+      q_new: 30
+      tau_q: 0.4
+      p_star: 0.9
+    weights:
+      G: 0.0
+      Q: 0.0
+      F: 0.0
+      D: 1.0
+      I: 0.0
+      Pop: 0.0
+    val_NDCG@5: 0.8043849634380676
+    val_R@5: 0.80814312775604
+    n_weight_vectors: 671
+  A8:
+    config:
+      kind: score
+      label: A5 + popularity
+      model: v3
+      active:
+      - G
+      - Q
+      - D
+      - F
+      - Pop
+      graph: chain
+      pop: train_window
+    filters:
+      mode: within
+      q_rev: 50
+      q_new: 30
+      tau_q: 0.4
+      p_star: 0.9
+    weights:
+      G: 0.2
+      Q: 0.0
+      F: 0.2
+      D: 0.2
+      I: 0.0
+      Pop: 0.4
+    val_NDCG@5: 0.8250586573191231
+    val_R@5: 0.8066264517731817
+    n_weight_vectors: 1001
+  A9:
+    config:
+      kind: score
+      label: A6 + popularity
+      model: v3I
+      active:
+      - G
+      - Q
+      - F
+      - D
+      - I
+      - Pop
+      graph: chain
+      pop: train_window
+    filters:
+      mode: within
+      q_rev: 50
+      q_new: 30
+      tau_q: 0.4
+      p_star: 0.9
+    weights:
+      G: 0.2
+      Q: 0.0
+      F: 0.2
+      D: 0.2
+      I: 0.0
+      Pop: 0.4
+    val_NDCG@5: 0.8275227254180114
+    val_R@5: 0.80814312775604
+    n_weight_vectors: 2211
